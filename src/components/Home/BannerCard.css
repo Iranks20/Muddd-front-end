@@ -1,0 +1,17 @@
+.banner-card-row {
+    display: flex;
+    animation-name: move-left;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move-left {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
