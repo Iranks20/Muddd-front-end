@@ -12,9 +12,9 @@ import support1 from './../../assets/images/icons/support1.png';
 
 const cardData = [
     {image: Icon9, title:'Buy Cryptocurrency', text:'With funds in your wallet, you can begin to buy and sell cryptocurrencies such as Bitcoin and Ethereum.'},
-    {image: Icon10, title:'Support', text:'kenya'},
+    {image: Icon10, title:'NFT Engine', text:'Muda will enable NFT development and staking in order to enable our users to generate value from their assets.'},
     {image: Icon11, title:'Sign Up', text:'Get started on our platform in minutes with our hassle-free sign-up procedures.'},
-    {image: Icon12, title:'Security', text:'Muda is developing various DeFi products that will provide liquidity to the massive global P2P marketplace, power remittances to emerging markets and enable global investors to tap into the rapidly growing Microfinance industry through asset backed financing on the blockchain.'},
+    {image: Icon12, title:' DeFi Platform', text:'Muda is developing various DeFi products that will provide liquidity to the massive global P2P marketplace, power remittances to emerging markets and enable global investors to tap into the rapidly growing Microfinance industry through asset backed financing on the blockchain.'},
     {image: Icon13, title:'Fund Wallet', text:'Easily deposit funds into your wallet and start trading. Your funds are safe and you have nothing to worry about.'},
 ];
 

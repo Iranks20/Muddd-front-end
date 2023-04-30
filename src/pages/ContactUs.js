@@ -19,8 +19,8 @@ function ContactUs(){
                             <div className="col-xl-5 col-lg-5 m-b30">
                                 <div className="info-box">
                                     <div className="info">
-                                        <h2>Contact Information</h2>
-                                        <p className="font-18">Fill up the form and our team will get back to you within 24 hours.</p>
+                                        <h2>Don’t Hesitate To Get In Touch With Us</h2>
+                                        <p className="font-18">Join over 10,000 others on the MUDA email list to get access to exclusive content and airdrops.</p>
                                     </div>
                                     
                                     <div className="widget widget_about">
@@ -28,15 +28,15 @@ function ContactUs(){
                                             <ul>
                                                 <li>
                                                     <i className="fa fa-phone"></i>
-                                                    <span>1800-123-4567<br/>+91 987-654-3210</span> 
+                                                    <span>+256726018443</span> 
                                                 </li>
                                                 <li>
                                                     <i className="fa fa-envelope"></i> 
-                                                    <span>info@example.com <br/>services@gmail.com</span>
+                                                    <span>info@muda.tech</span>
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
-                                                    <span>Demo Address #8901 Marmora Road <br/>Chi Minh City, Vietnam</span>
+                                                    <span>Top House, Plot 65, <br/>Kampala Road, Uganda</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -46,10 +46,10 @@ function ContactUs(){
                                     <div className="social-box dz-social-icon style-3">
                                         <h6>Our Socials</h6>
                                         <ul className="social-icon">
-                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.facebook.com/"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a></li>
-                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a></li>
-                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://youtube.com/"><i className="fab fa-youtube"></i></a></li>
+                                            <li><a className="social-btn" href="mailto:info@muda.tech"><i className="fa-brands fa-google"></i></a></li>
+                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://instagram.com/muda_hq?igshid=YmMyMTA2M2Y="><i className="fa-brands fa-instagram"></i></a></li>
+                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://twitter.com/mudatech_?t=9xUIcKAWXE2KFGl-wtrkrA&s=09"><i className="fa-brands fa-twitter"></i></a></li>
+                                            <li><a className="social-btn" target="_blank" rel="noreferrer" href="https://www.youtube.com/@mudatech"><i className="fab fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -60,8 +60,8 @@ function ContactUs(){
                                     <div className="card">
                                         <div className="card-body">
                                             <div className="mb-4">
-                                                <h2 className="mb-0">Get In touch</h2>
-                                                <p className="mb-0 font-18 text-primary">We are here for you. How we can help?</p>
+                                                <h2 className="mb-0">SEND MESSAGE</h2>
+                                                <p className="mb-0 font-18 text-primary">Start The Conversation To Get Any Information</p>
                                             </div>
                                             <form className="dzForm" onSubmit={(e) => submitHandler(e)}>
                                                 <div className="dzFormMsg"></div>

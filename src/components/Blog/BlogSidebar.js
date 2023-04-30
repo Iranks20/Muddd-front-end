@@ -1,33 +1,34 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import pic1 from './../../assets/images/blog/small/pic1.jpg';
-import pic2 from './../../assets/images/blog/small/pic2.jpg';
-import pic3 from './../../assets/images/blog/small/pic3.jpg';
+import pic1 from './../../assets/images/blog/small/blog_1.png';
+import pic2 from './../../assets/images/blog/small/blog-8.png';
+import pic3 from './../../assets/images/blog/small/blog-3.png';
 
 
 const categories = [
-    {title:'Business(10)'}, {title:'Case Study (13)'},
-    {title:'Insights (9)'}, {title:'World (3)'},
-    {title:'Tax Solutions (12)'}, {title:'Creative (6)'}
+    {title:'Home'}, {title:'OTC Deal Room'},
+    {title:'Cash Link'}, {title:'Go To Exchange'},
+    {title:'Trading Desk'}, {title:'Contact Us'}
 ];
 const postData = [
-    {image: pic1, title:'Things That Make You Love Cryptocurrency', date:'01 Jan 2023'},
-    {image: pic2, title:'7 Ingenious Ways You Can Do With Cryptocurrency.', date:'10 Jan 2023'},
-    {image: pic3, title:'14 Days To A Better Crypto Currency.', date:'15 Jan 2023'},
+    {image: pic1, title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
+    {image: pic2, title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date:'12 Jan 2022'},
+    {image: pic3, title:'How OTC Platforms are democratising access to investments', date:'31 Mar 2023'},
 ];
 const tagData = [
-    {title:'Business'},{title:'Corporate'},
-    {title:'Blog'},{title:'Marketing'},
-    {title:'Creative'},{title:'Web'},
-    {title:'Workers'},{title:'Modern'},
+    {title:'OTC'},{title:'OTC Deal Room'},
+    {title:'Cash Link'},{title:'Muda Exchange'},
+    {title:'Blog'},{title:'Contact us'},
+    {title: 'Home'}
+    // {title:'Workers'},{title:'Modern'},
 ];
 
 const BlogSidebar = () =>{
     return(
         <>
             <aside className="side-bar sticky-top right">
-                <div className="widget">
+                {/* <div className="widget">
                     <div className="widget-title">
                         <h4 className="title">Search</h4>
                     </div>
@@ -43,7 +44,7 @@ const BlogSidebar = () =>{
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="widget widget_categories">
                     <div className="widget-title">

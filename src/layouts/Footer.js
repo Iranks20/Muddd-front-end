@@ -20,13 +20,13 @@ function Footer(){
                                     <div className="footer-logo logo-white">
                                         <Link to={"/"}><img src={logowhite} alt="" /></Link>
                                     </div>
-                                    <p>CryptoZone is a Crypto & Crypto Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                                    <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p>
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
-                                            <li><a target="_blank" className="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-instagram" href="https://www.instagram.com/"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-youtube" href="https://youtube.com/"></a></li>
+                                            <li><a className="fab fa-google" href="mailto:info@muda.tech"></a></li>
+                                            <li><a target="_blank" className="fab fa-instagram" href="https://instagram.com/muda_hq?igshid=YmMyMTA2M2Y="></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/mudatech_?t=9xUIcKAWXE2KFGl-wtrkrA&s=09"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-youtube" href="https://www.youtube.com/@mudatech"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -49,14 +49,14 @@ function Footer(){
                                     <div className="widget-post-bx">
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
-                                                <h6 className="title"><Link to={"/blog-details"}>What is cryptocurrency and how does it work.</Link></h6>
+                                                <h6 className="title"><Link to={"/blog-grid"}>What is cryptocurrency and how does it work.</Link></h6>
                                                 <span className="post-date"> JUNE 18, 2023</span>
                                             </div>
                                         </div>
                                         <div className="post-separator"></div>
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
-                                                <h6 className="title"><Link to={"/blog-details"}>A cryptocurrency is a digital currency.</Link></h6>
+                                                <h6 className="title"><Link to={"/blog-list"}>A cryptocurrency is a digital currency.</Link></h6>
                                                 <span className="post-date"> AUGUST 22, 2023</span>
                                             </div>
                                         </div>
@@ -67,8 +67,8 @@ function Footer(){
                                 <div className="widget widget_locations">
                                     <h4 className="widget-title">Locations</h4>
                                     <div className="clearfix">
-                                        <h6 className="title">Washington</h6>
-                                        <p>1559 Alabama Ave SE, DC 20032, Washington, USA</p>
+                                        <h6 className="title">UGANDA</h6>
+                                        <p>Top House, Plot 65, Kampala Road, Uganda</p>
                                         <img src={flags} alt="" />
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ function Footer(){
                 </div>
                 <div className="footer-bottom text-center">
                     <div className="container">
-                        <span className="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span>
+                        <span className="copyright-text">© 2023 Muda Tech. Proudly powered by MUDA</span>
                     </div>
                 </div>
             </footer>

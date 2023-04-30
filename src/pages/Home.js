@@ -20,12 +20,12 @@ import coin3 from './../assets/images/coins/coin3.png';
 import coin4 from './../assets/images/coins/coin4.png';
 
 import bloglg from './../assets/images/blog/blog-ig.png';
-import avatar3 from './../assets/images/avatar/avatar3.jpg';
+import avatar3 from './../assets/images/avatar/avatar7.svg';
 
 
 const trustBlog = [
-	{image: wallet, title:' OTC & Crypto Exchange'}, 
-	{image: friend, title:'DeFi Platform'}, 
+	{image: wallet, title:' OTC & Crypto Exchange', text:'Muda Operates a leading OTC desk that provids crucial liquidity to the East African Marketplace supporting P2P traders with more than $2 million in daily volume.'}, 
+	{image: friend, title:'DeFi Platform', text:'Muda is developing various DeFi products that will provide liquidity to the massive global P2P marketplace, power remittances to emerging markets and enable global investors to tap into the rapidly growing Microfinance industry through asset backed financing on the blockchain.'}, 
 ];
 
 function Home(){
@@ -82,7 +82,7 @@ function Home(){
 											</div>
 											<div className="icon-content">
 												<h4 className="title">{data.title}</h4>
-												<p>Muda Operates a leading OTC desk that provides crucial liquidity to the East African Marketplace supporting P2P traders with more than $2 million in daily volume.</p>
+												<p>{data.text}</p>
 												<a  className="btn btn-primary btn-gradient btn-shadow" href="https://www.muda.exchange/">Read More</a>
 											</div>
 										</div>
@@ -152,7 +152,7 @@ function Home(){
 							<div className="col-xl-7 col-lg-12">
 								<div className="section-head " >
 									<h6 className="sub-title text-primary">FROM OUR BLOG</h6>
-									<h2 className="title">Recent News &amp; Updates</h2>
+									<h2 className="title">Get Great News And Insight From Our Expert Team.</h2>
 								</div>
 								<RecentNews />
 							</div>
@@ -160,20 +160,20 @@ function Home(){
 								<div className="dz-card style-2" style={{backgroundImage: "url("+ bloglg +")"}}>
 									<div className="dz-category">
 										<ul className="dz-badge-list">
-											<li><Link to={"#"} className="dz-badge">14 Fan 2022</Link></li>
+											<li><Link to={"#"} className="dz-badge">31st MARCH 2023</Link></li>
 										</ul>
 									</div>
 									<div className="dz-info">
-										<h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2>
+										<h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Over-The-Counter(OTC)</Link></h2>
 										<div className="dz-meta">
 											<ul>
-												<li className="post-author">
-													<Link to={"#"}>
-														<img src={avatar3} alt=""  className="me-2"/>
-														<span>By Noare</span>
-													</Link>
-												</li>
-												<li className="post-date"><Link to={"#"}> 12 May 2022</Link></li>
+												{/* <li className="post-author"> */}
+													{/* <Link to={"#"}> */}
+														{/* <img src={avatar3} alt=""  className="me-2"/> */}
+														{/* <span>By Noare</span> */}
+													{/* </Link> */}
+												{/* </li> */}
+												<li className="post-date"><img src={avatar3} alt=""  className="me-2"/></li>
 											</ul>
 										</div>
 									</div>
