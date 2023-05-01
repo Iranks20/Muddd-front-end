@@ -34,7 +34,7 @@ function BlogGrid(){
                                 <div className="col-md-6 col-xl-4 m-b30" key={ind}>
                                     <div className="dz-card style-1 blog-lg overlay-shine">
                                         <div className="dz-media">
-                                            <Link to={"/blog-details"}><img src={item.image1} alt="" /></Link>
+                                            <Link to={"/otc-room"}><img src={item.image1} alt="" /></Link>
                                         </div>
                                         <div className="dz-info">
                                             <div className="dz-meta">
@@ -48,7 +48,7 @@ function BlogGrid(){
                                                     <li className="post-date"><Link to={"#"}>{item.date}</Link></li>
                                                 </ul>
                                             </div>
-                                            <h4 className="dz-title"><Link to={"/blog-details"}>{item.title}</Link></h4>
+                                            <h4 className="dz-title"><Link to={"/otc-room"}>{item.title}</Link></h4>
                                             <p>{item.description}</p>
                                             <Link to={"/blog-otc"} className="btn btn-primary">Read More</Link>
                                         </div>

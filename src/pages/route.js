@@ -7,9 +7,9 @@ import Footer from './../layouts/Footer';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Pricing from './Pricing';
-// import BlogList from './BlogList';
+import BlogList from './BlogList';
 import BlogGrid from './BlogGrid';
-// import BlogDetails from './BlogDetails';
+import OtcRoom from './OtcRoom';
 import BlogDetails1 from './BlogDetails1';
 import ContactUs from './ContactUs';
 import BlogTechnology from './BlogTechnology';
@@ -25,9 +25,9 @@ function Index(){
 						<Route path='/' exact element={<Home />} />
 						<Route path='/about-us' exact element={<AboutUs />} />
 						<Route path='/pricing' exact element={<Pricing />} />
-						{/* <Route path='/blog-list' exact element={<BlogList />} /> */}
+						<Route path='/blog-list' exact element={<BlogList />} />
 						<Route path='/blog-grid' exact element={<BlogGrid />} />
-						{/* <Route path='/blog-details' exact element={<BlogDetails />} /> */}
+						<Route path='/otc-room' exact element={<OtcRoom />} />
 						<Route path='/blog-details1' exact element={<BlogDetails1 />} />
 						<Route path='/contact-us' exact element={<ContactUs />} />
 						<Route path='/blog-technology' exact element={<BlogTechnology />} />

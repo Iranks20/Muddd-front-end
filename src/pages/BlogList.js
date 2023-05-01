@@ -33,11 +33,11 @@ function BlogList(){
                                         <div className="col-lg-12 m-b40" key={index}>
                                             <div className="dz-card style-1 blog-half">
                                                 <div className="dz-media">
-                                                    <Link to={"/blog-details"}><img src={item.image} alt="" /></Link>
+                                                    <Link to={"/otc-room"}><img src={item.image} alt="" /></Link>
                                                     <ul className="dz-badge-list">
                                                         <li><Link to={"#"} className="dz-badge">14 Fan 2022</Link></li>
                                                     </ul>
-                                                    <Link to={"/blog-details"} className="btn btn-secondary">Read More</Link>
+                                                    <Link to={"/otc-room"} className="btn btn-secondary">Read More</Link>
                                                 </div>
                                                 <div className="dz-info">
                                                     <div className="dz-meta">
@@ -51,7 +51,7 @@ function BlogList(){
                                                             <li className="post-date"><Link to={"#"}>12 May 2022</Link></li>
                                                         </ul>
                                                     </div>
-                                                    <h4 className="dz-title"><Link to={"/blog-details"}>{item.title}</Link></h4>
+                                                    <h4 className="dz-title"><Link to={"/otc-room"}>{item.title}</Link></h4>
                                                     <p className="m-b0">Nostrud tem exrcitation duis laboris nisi ut aliquip sed duis aute cupidata lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>

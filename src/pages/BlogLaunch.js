@@ -105,7 +105,7 @@ function BlogLaunch(){
                                         <div className="col-md-6 m-b30" key={ind}>
                                             <div className="dz-card style-1  blog-lg overlay-shine ">
                                                 <div className="dz-media ">
-                                                    <Link to={"/blog-details"}><img src={item.image1} alt="" /></Link>
+                                                    <Link to={"/otc-room"}><img src={item.image1} alt="" /></Link>
                                                 </div>
                                                 <div className="dz-info">
                                                     <div className="dz-meta">
@@ -119,9 +119,9 @@ function BlogLaunch(){
                                                             {/* <li className="post-date"><Link to={"#"}> 24 May 2022</Link></li> */}
                                                         </ul>
                                                     </div>
-                                                    <h4 className="dz-title"><Link to={"/blog-details"}>{item.title}</Link></h4>
+                                                    <h4 className="dz-title"><Link to={"/otc-room"}>{item.title}</Link></h4>
                                                     <p>{item.description}</p>
-                                                    <Link to={"/blog-details"} className="btn btn-primary">Read More</Link>
+                                                    <Link to={"/otc-room"} className="btn btn-primary">Read More</Link>
                                                 </div>
                                             </div>
                                         </div>

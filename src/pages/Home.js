@@ -164,7 +164,7 @@ function Home(){
 										</ul>
 									</div>
 									<div className="dz-info">
-										<h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Over-The-Counter(OTC)</Link></h2>
+										<h2 className="dz-title"><Link to={"/otc-room"} className="text-white">Over-The-Counter(OTC)</Link></h2>
 										<div className="dz-meta">
 											<ul>
 												{/* <li className="post-author"> */}

@@ -4,18 +4,18 @@ import ModalVideo from 'react-modal-video'
 
 import PageLayout from './../layouts/PageLayout';
 import PriceBlog from './../components/About/PriceBlog';
-import RecentNews from './../components/Home/RecentNews';
+import RecentNewslink from './../components/Home/RecentNewslink';
 
 //Images
 import Shape1 from './../assets/images/home-banner/shape1.png';
 import Shape3 from './../assets/images/home-banner/shape3.png'; 
 
-import about2 from './../assets/images/about/about-2.jpg';
-import about3 from './../assets/images/about/about-3.jpg';
+import about2 from './../assets/images/about/about-5.jpg';
+import about3 from './../assets/images/about/about-6.png';
 import about4 from './../assets/images/about/about-4.jpg';
-import about1 from './../assets/images/about/about-1.jpg';
+import about1 from './../assets/images/about/about-7.jpg';
 
-import videobox from './../assets/images/about/videobx.png';
+import videobox from './../assets/images/about/videoz.jpg';
 
 import bloglg from './../assets/images/blog/blog-ig.png';
 import avatar3 from './../assets/images/avatar/avatar3.jpg';
@@ -60,10 +60,10 @@ function AboutUs(){
                             </div>
                             <div className="col-lg-6 about-content ps-lg-5 m-b30">
                                 <div className="section-head">
-                                    <h2 className="title">The World’s 1st ICO Platform That Offers Rewards</h2>
-                                    <p className="m-0 lh-base">We are an independent gym that is committed to working with you to gain the results you want. Whether your aim is to loose weight</p>
+                                    <h2 className="title">MUDA X CashLink</h2>
+                                    <p className="m-0 lh-base">MUDA and Cashlink are getting into a collaboration to make peer to peer payments easy, fast and trustworthy through empowering merchants with an opportunity to be their own bosses and earn more.</p>
                                 </div>
-                                <Link to={"/contact-us"} className="btn btn-lg btn-primary btn-shadow text-uppercase">Contact Us</Link>
+                                <a href='https://cashlinkmerchant.typeform.com/ghapplication?typeform-source=muda.tech' className="btn btn-lg btn-primary btn-shadow text-uppercase">APPLICATION LINK</a>
                             </div>
                         </div>
                     </div>                    
@@ -91,7 +91,7 @@ function AboutUs(){
                     <img className="bg-shape2" src={Shape1} alt="" />
                     <div className="container">
                         <div className="section-head text-center">
-                            <h2 className="title">Awesome Pricing Plan for <br /> Cryptocurrency Business</h2>
+                            <h2 className="title">Strategy On Acquiring More <br /> Merchants</h2>
                         </div>
                         <div className="row justify-content-center">
                             <PriceBlog />
@@ -106,8 +106,8 @@ function AboutUs(){
                             <div className="row align-items-center">
                                 <div className="col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                                     <div className="section-head">
-                                        <h5 className="sub-title text-white">JOIN US</h5>
-                                        <h2 className="title text-white">We Need Your Help</h2>
+                                        <h5 className="sub-title text-white">Join The List</h5>
+                                        <h2 className="title text-white">Fill in your details</h2>
                                     </div>
                                 </div>
                                 <div className="col-xl-9">
@@ -148,22 +148,37 @@ function AboutUs(){
 						<div className="row">
 							<div className="col-xl-7 col-lg-12">
 								<div className="section-head " >
-									<h6 className="sub-title text-primary">FROM OUR BLOG</h6>
-									<h2 className="title">Recent News &amp; Updates</h2>
+									<h6 className="sub-title text-primary">REQUIREMENTS</h6>
+									<h2 className="title">Requirements For Merchant To Apply For Liquidity Facilitation</h2>
 								</div>
-								<RecentNews />
+								<RecentNewslink />
 							</div>
 							<div className="col-xl-5 col-lg-12 m-b30 " >
 								<div className="dz-card style-2" style={{backgroundImage: "url("+ bloglg +")"}}>
 									<div className="dz-category">
 										<ul className="dz-badge-list">
-											<li><Link to={"#"} className="dz-badge">14 Fan 2022</Link></li>
+											<li><Link to={"#"} className="dz-badge">PROJECTS 15+</Link></li>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            {/* <br></br> */}
+                                            <li><Link to={"#"} className="dz-badge">EMPLOYEES 15+</Link></li>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            {/* <br></br> */}
+                                            <li><Link to={"#"} className="dz-badge">OTC Users 573</Link></li>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            {/* <br></br> */}
+                                            <li><Link to={"#"} className="dz-badge">Users 5000</Link></li>
 										</ul>
 									</div>
 									<div className="dz-info">
-										<h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2>
+										{/* <h2 className="dz-title"><Link to={"/blog-details"} className="text-white">Directly support individuals Crypto</Link></h2> */}
 										<div className="dz-meta">
-											<ul>
+											{/* <ul>
 												<li className="post-author">
 													<Link to={"#"}>
 														<img src={avatar3} alt=""  className="me-2"/>
@@ -171,7 +186,7 @@ function AboutUs(){
 													</Link>
 												</li>
 												<li className="post-date"><Link to={"#"}> 12 May 2022</Link></li>
-											</ul>
+											</ul> */}
 										</div>
 									</div>
 								</div>
@@ -180,7 +195,7 @@ function AboutUs(){
 					</div>
                 </section>
             </div>
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="cfmQFW1DpA0" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="d80i9MFzLuw" onClose={() => setOpen(false)} />
         </>
     )
 }
