@@ -18,11 +18,11 @@ function RecentNews(){
             {updatesBlog.map((data, ind)=>(
                 <div className="dz-card style-1 blog-half m-b30" key={ind}>
                     <div className="dz-media">
-                        <Link to={"/blog-details"}><img src={data.image1} alt="" /></Link>
+                        <Link to={"/blog"}><img src={data.image1} alt="" /></Link>
                         <ul className="dz-badge-list">
                             <li><Link to={"#"} className="dz-badge">{data.date1}</Link></li>
                         </ul>
-                        <Link to={"/blog-details"} className="btn btn-secondary">Read More</Link>
+                        <Link to={"/blog"} className="btn btn-secondary">Read More</Link>
                     </div>
                     <div className="dz-info">
                         <div className="dz-meta">
@@ -36,7 +36,7 @@ function RecentNews(){
                                 {/* <li className="post-date"><Link to={"#"}> 12 May 2022</Link></li> */}
                             </ul>
                         </div>
-                        <h4 className="dz-title"><Link to={"/blog-details"}>{data.title}</Link></h4>
+                        <h4 className="dz-title"><Link to={"/blog"}>{data.title}</Link></h4>
                         <p className="m-b0">{data.description}</p>
                     </div>
                 </div>

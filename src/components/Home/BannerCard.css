@@ -1,17 +1,26 @@
 .banner-card-row {
-    display: flex;
-    animation-name: move-left;
-    animation-duration: 15s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  display: flex;
+  animation-name: move-left;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 767px) {
+  .banner-card-row {
+    overflow: hidden;
   }
   
-  @keyframes move-left {
-    from {
-      transform: translateX(0%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
+  .banner-card-row > div:not(:first-child) {
+    display: none;
   }
-  
+}
+
+@keyframes move-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

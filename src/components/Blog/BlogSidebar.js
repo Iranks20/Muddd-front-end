@@ -12,16 +12,16 @@ const categories = [
     {title:'Trading Desk'}, {title:'Contact Us'}
 ];
 const postData = [
-    {image: pic1, path: 'blog-technology', title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
-    {image: pic2, path: 'blog-launch', title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date:'12 Jan 2022'},
-    {image: pic3, path: 'blog-otc', title:'How OTC Platforms are democratising access to investments', date:'31 Mar 2023'},
+    {image: pic1, path: '#/blog-technology', title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
+    {image: pic2, path: '#/blog-launch', title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date:'12 Jan 2022'},
+    {image: pic3, path: '#/blog-otc', title:'How OTC Platforms are democratising access to investments', date:'31 Mar 2023'},
 ];
 const tagData = [
     {title:'OTC'},{title:'OTC Deal Room'},
     {title:'Cash Link'},{title:'Muda Exchange'},
     {title:'Blog'},{title:'Contact us'},
     {title: 'Home'}
-    // {title:'Workers'},{title:'Modern'},
+// {title:'Workers'},{title:'Modern'},
 ];
 
 const BlogSidebar = () =>{

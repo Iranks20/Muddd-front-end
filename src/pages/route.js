@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes  } from 'react-router-dom';
+import { HashRouter, Route, Routes  } from 'react-router-dom';
 
 import ScrollToTop from './../layouts/ScrollToTop';
 import Header from './../layouts/Header';
@@ -18,7 +18,7 @@ import BlogOtc from './BlogOtc';
 
 function Index(){
 	return(
-		<BrowserRouter basename="/frontend/react">
+		<HashRouter basename="/">
 			<div className="page-wraper">
 					<Header />
 					<Routes>
@@ -37,7 +37,7 @@ function Index(){
 					<Footer />
 				<ScrollToTop />
 			</div>
-		 </BrowserRouter>			
+		 </HashRouter>		
 	)
 } 
 export default Index;
