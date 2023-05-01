@@ -12,7 +12,7 @@ const PageLayout = ({pageTitle, desc}) =>{
                 <div className="container">
                     <div className="dz-bnr-inr-entry">
                         <h1>{pageTitle}</h1>
-                        {desc !== false  &&   
+                        {desc !== false  &&
                             <p className="text">Transfer USD, EUR, or Crypto and start trading today!</p>                            
                         }
                         <nav  className="breadcrumb-row">

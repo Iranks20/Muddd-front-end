@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
-const PriceListt = [
-    { description: 'We shall have a team at the Event to talk to different merchants who have come to register with us by telling them about the benefits.'},
+// const PriceListt = [
+//     { description: 'We shall have a team at the Event to talk to different merchants who have come to register with us by telling them about the benefits.'},
 
-]
+// ]
 
 // const PriceList = () =>{
 //     return(

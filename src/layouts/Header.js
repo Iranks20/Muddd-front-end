@@ -15,7 +15,7 @@ function Header(){
 	}, []); 
 
     const [sidebarOpen, setSidebarOpen] = useState(false);	
-    const [showMenu, setShowMenu] = useState(false);	   
+    // const [showMenu, setShowMenu] = useState(false);	   
     return(
         <>
             <header className="site-header mo-left header header-transparent style-1">
@@ -70,7 +70,7 @@ function Header(){
                                         <ul>
                                             <li><a target="_blank" className="fab fa-facebook-f" rel="noreferrer" href="https://www.facebook.com/"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" rel="noreferrer" href="https://twitter.com/"></a></li>{" "}
-                                            <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/"></a></li>{" "}
+                                            <li><a target="_blank" className="fab fa-linkedin-in" rel="noreferrer" href="https://www.linkedin.com/"></a></li>
                                             <li><a target="_blank" className="fab fa-instagram" rel="noreferrer" href="https://www.instagram.com/"></a></li>
                                         </ul>
                                     </div>	
