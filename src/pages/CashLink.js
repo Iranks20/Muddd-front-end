@@ -2,9 +2,9 @@ import React,{useState} from 'react';
 import {Link, useNavigate} from 'react-router-dom';
 import ModalVideo from 'react-modal-video'
 
-import PageLayout from './../layouts/PageLayout';
-import PriceBlog from './../components/About/PriceBlog';
-import RecentNewslink from './../components/Home/RecentNewslink';
+import PageLayout from '../layouts/PageLayout';
+import PriceBlog from '../components/About/PriceBlog';
+import RecentNewslink from '../components/Home/RecentNewslink';
 
 //Images
 import Shape1 from './../assets/images/home-banner/shape1.png';
@@ -42,7 +42,7 @@ function AboutUs(){
     return(
         <>
             <div className="page-content">
-                <PageLayout pageTitle="About Us" />               
+                <PageLayout pageTitle="MUDA X CASHLINK" />              
                 <section className="content-inner about-sec bg-primary-light">
                     <div className="container">
                         <div className="row about-bx2 style-1 align-items-center">

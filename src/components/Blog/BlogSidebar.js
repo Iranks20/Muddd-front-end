@@ -12,9 +12,9 @@ const categories = [
     {title:'Trading Desk'}, {title:'Contact Us'}
 ];
 const postData = [
-    {image: pic1, title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
-    {image: pic2, title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date:'12 Jan 2022'},
-    {image: pic3, title:'How OTC Platforms are democratising access to investments', date:'31 Mar 2023'},
+    {image: pic1, path: 'blog-technology', title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
+    {image: pic2, path: 'blog-launch', title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date:'12 Jan 2022'},
+    {image: pic3, path: 'blog-otc', title:'How OTC Platforms are democratising access to investments', date:'31 Mar 2023'},
 ];
 const tagData = [
     {title:'OTC'},{title:'OTC Deal Room'},
@@ -70,7 +70,7 @@ const BlogSidebar = () =>{
                                     <img src={item.image} alt="" />
                                 </div>
                                 <div className="dz-info">
-                                    <h6 className="title"><Link to={"/blog-details"}>{item.title}</Link></h6>
+                                    <h6 className="title"><a href={item.path}>{item.title}</a></h6>
                                     <div className="dz-meta">
                                         <ul>
                                             <li className="post-date"><Link to={"#"}> {item.date}</Link></li>

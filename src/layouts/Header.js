@@ -49,19 +49,20 @@ function Header(){
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
                                     <li><NavLink to={"/otc-room"}>OTC Deal Room</NavLink></li>
-                                    <li><NavLink to={"/about-us"}>CashLink</NavLink></li>
+                                    <li><NavLink to={"/cash-link"}>CashLink</NavLink></li>
                                     <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
-                                    <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
+                                    <li><NavLink to={"/blog"}>Blog</NavLink></li>
+                                    {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
                                     ><Link to={"#"}>Blog</Link>
                                         <ul className="sub-menu">
-                                            {/* <li><NavLink to={"/blog-list"}>Blog list</NavLink></li> */}
-                                            <li><NavLink to={"/blog-grid"}>Blog grid</NavLink></li>
-                                            {/* <li><NavLink to={"/otc-room"}>OTC Deal Room</NavLink></li> */}
+                                            <li><NavLink to={"/blog-list"}>Blog list</NavLink></li>
+                                            <li><NavLink to={"/blog"}>Blog grid</NavLink></li>
+                                            <li><NavLink to={"/otc-room"}>OTC Deal Room</NavLink></li>
                                         </ul>
                                     </li>
-                                    {/* <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li> */}
+                                    <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li> */}
                                 </ul>                               
                             
                                 <div className="header-bottom">

@@ -35,10 +35,10 @@ function Footer(){
                                 <div className="widget widget_services">
                                     <h4 className="widget-title">Other Links</h4>
                                     <ul>
-                                        <li><Link to={"/about-us"}>About Us</Link></li>
-                                        <li><Link to={"/pricing"}>Pricing Plan</Link></li>
-                                        <li><Link to={"/blog-list"}>Blog List</Link></li>
-                                        <li><Link to={"/blog-grid"}>Our Blogs</Link></li>
+                                        <li><Link to={"/otc-room"}>OTC Deal Room</Link></li>
+                                        <li><Link to={"/cash-link"}>CashLink</Link></li>
+                                        <li><Link to={"/blog"}>blog</Link></li>
+                                        <li><Link to={"/blog"}>Our Blogs</Link></li>
                                         <li><Link to={"/contact-us"}>Contact Us</Link></li>
                                     </ul>
                                 </div>
@@ -49,15 +49,15 @@ function Footer(){
                                     <div className="widget-post-bx">
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
-                                                <h6 className="title"><Link to={"/blog-grid"}>What is cryptocurrency and how does it work.</Link></h6>
-                                                <span className="post-date"> JUNE 18, 2023</span>
+                                                <h6 className="title"><Link to={"/blog"}>Introducing Muda Africa!</Link></h6>
+                                                <span className="post-date"> March 6th, 2023</span>
                                             </div>
                                         </div>
                                         <div className="post-separator"></div>
                                         <div className="widget-post clearfix">
                                             <div className="dz-info">
-                                                <h6 className="title"><Link to={"/blog-list"}>A cryptocurrency is a digital currency.</Link></h6>
-                                                <span className="post-date"> AUGUST 22, 2023</span>
+                                                <h6 className="title"><Link to={"/blog"}>The role of AI in the blockchain technology industry</Link></h6>
+                                                <span className="post-date"> March 22, 2023</span>
                                             </div>
                                         </div>
                                     </div>

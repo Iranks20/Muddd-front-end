@@ -5,7 +5,7 @@ import PageLayout from '../layouts/PageLayout';
 import BlogSidebar from '../components/Blog/BlogSidebar';
 
 //images
-import blog from './../assets/images/blog/blog-detaills-1.jpg';
+import blog from './../assets/images/blog/pic4.jpg';
 import avat4 from './../assets/images/avatar/globe.svg';
 import avat3 from './../assets/images/avatar/avatar3.jpg';
 import avat2 from './../assets/images/avatar/avatar6.png';
@@ -34,7 +34,7 @@ const CommentBlog = ({image, title}) =>{
                         <cite className="fn">{title}</cite>
                         <span>07 March, 2022</span>
                     </div>
-                    <p>Integer consectetur diam vitae imperdiet iaculis. In faucibus, sem sit amet tincidunt egestas, magna ligula interdum leo.</p>
+                    <p>"We had issues handling B2B transactions to Dubai which were solved when we joined the Muda OTC platform</p>
                     <div className="reply"> 
                         <Link to={"#"} className="comment-reply-link"><span><i className="fa-solid fa-share"></i>REPLY</span></Link> 
                     </div>
@@ -86,7 +86,7 @@ function BlogDetails(){
                                                 <li>This spot, which was created For the bliss of souls like mine.</li>
                                             </ul>
                                             <p>The inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty.</p> */}
-                                            <Link to={"/blog-grid"} className="btn btn-primary">Read More</Link>
+                                            <Link to={"/blog"} className="btn btn-primary">Read More</Link>
                                         </div>
 
                                         {/* <div className="dz-share-post">
