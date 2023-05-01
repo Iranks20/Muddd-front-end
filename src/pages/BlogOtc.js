@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-import PageLayout from './../layouts/PageLayout';
-import BlogSidebar from './../components/Blog/BlogSidebar';
+import PageLayout from '../layouts/PageLayout';
+import BlogSidebar from '../components/Blog/BlogSidebar';
 
 //images
-import blog from './../assets/images/blog/blog-4.png';
-import avat3 from './../assets/images/avatar/avatar3.jpg';
+import blog from './../assets/images/blog/blog-3.png';
+import avat3 from './../assets/images/avatar/avatar6.png';
 import avat2 from './../assets/images/avatar/avatar6.png';
 import avat1 from './../assets/images/avatar/avatar1.jpg';
 import pic4 from './../assets/images/blog/blog-3.png';
@@ -39,7 +39,7 @@ const CommentBlog = ({image, title}) =>{
     )
 }
 
-function BlogDetails(){
+function BlogOtc(){
     return(
         <>
             <div className="page-content">
@@ -61,30 +61,38 @@ function BlogDetails(){
                                                         <span>BY MUDATECH</span>
                                                     </Link>
                                                 </li>
-                                                <li className="post-date"><Link to={"#"}>March 6th 2023</Link></li>
+                                                <li className="post-date"><Link to={"#"}>March 31st 2023</Link></li>
                                                 <li className="post-comment"><Link to={"#"}>UNCATEGORISED</Link></li>
                                             </ul>
                                         </div>
-                                        <h3 className="dz-title">Introducing Muda Africa!</h3>
+                                        <h3 className="dz-title">How OTC Platforms are democratising access to investments</h3>
                                         <div className="dz-post-text">
-                                            <p>There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!</p>
-                                            <p>So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda. From the flexibility of swapping and trading cryptocurrencies, to DeFi and NFT applications on a secure website and smartphone App. Muda makes decentralised finance accessible to anyone, anywhere, anytime!</p>
+                                            <p>Over-the-counter (OTC) trading is a popular way of buying and selling digital assets without relying on an intermediary. OTC trading allows traders to negotiate directly with each other, avoid price slippage, and access higher liquidity.</p>
+                                            <p>Over the last few years, the digital asset market has tremendously grown, with many investors and traders eager to get a slice of the industry. This has led to the rise of OTC platforms like MUDA, which are democratizing access to digital asset investment for everyone.</p>
+                                            <p> In this article, we explore how OTC trading platforms like MUDA are changing the digital asset landscape by making it easier for people to buy and sell their digital assets.</p>
+                                            <p> One of the biggest perks of using an OTC trading platform is that it democratizes access to digital asset investments. In the past, trading digital assets required significant technical knowledge, as well as access to specialized trading platforms and liquidity pools. However, with the emergence of OTC trading platforms like MUDA, anyone can now buy and sell digital assets with ease.</p>
+                                            <p> MUDA is one such platform that has made it easier for P2P traders and other retail investors and traders to access digital asset investments. With MUDA, users can buy and sell Bitcoin, Ethereum, and other stable coins like USDT, and fiat currencies from anywhere across the world without the need for an intermediary through a user-friendly interface. The platform offers competitive fees, fast transaction speeds, and a secure trading platform, making it an ideal option for both new and experienced traders.</p>
                                             <blockquote className="wp-block-quote">
                                                 <p>“ There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!”.</p>
                                                 <cite>mudatech</cite>
                                             </blockquote>
-                                            <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p>
-                                            <p>The token eco-system will consist of anchors will act to ensure network trust is maintained by locking the holdings into a liquidity pool that is then used to endorse the loan request from P2P sellers who would like to increase their operating capital. The issued loans will be used to process transactions and the generated fees will be sent to the liquidity pool as a profit for the anchors and other liquidity providers from the token holders. The MUDA token will be used to pay for fees, secure bonds, mint NFTs and much more.</p>
+                                            <p> In addition to democratizing access to digital assets investments, OTC trading platforms like MUDA offer several other benefits to end-users;</p>
                                             <ul className="m-b30">
-                                                <li>MUDA is committed to growing financial inclusion through digital assets.</li>
+                                                <li>Improved liquidity- OTC trading platforms offer access to a larger pool of liquidity than centralized exchanges. This means that users can execute larger trades without impacting the market price.</li>
+                                                <li>Faster transaction times- OTC trading platforms like MUDA offer faster transaction times than centralized exchanges, which take several minutes or even hours to process trades during peak trading periods.</li>
+                                                <li>Enhanced security- OTC trading platforms like MUDA use advanced security measures to protect user funds and transactions. This includes measures like 2FA and UNIFID, a 3rd party verification tool to ensure it’s the true owners of accounts who have access to funds.</li>
+                                                <li>Lower fees- OTC trading platforms often charge lower fees than centralized exchanges which can help users save money on their trades.</li>
                                             </ul>
+                                            <p>In conclusion, OTC trading platforms like MUDA are democratizing access to digital asset investments by making it easier for retail investors and traders to access the digital asset market. By offering competitive prices, fast transaction speeds, and enhanced security, these OTC trading platforms are changing the digital asset landscape and making it accessible to everyone.</p>
+                                            <p>MUDA is currently in its beta phase and will launch its official version soon. Users who sign up now can enjoy discounts on fees for the first three months. MUDA also has a referral program that rewards users for inviting their friends to join the platform.</p>
+                                            <p>If you are looking for a reliable, efficient, and innovative OTC platform, <a href='https://muda.exchange'>MUDA</a> is the one for you. Visit https://muda.tech to learn more and start trading today.</p>
                                         </div>
                                         <div className="dz-share-post">
                                             <div className="post-tags">
                                             <h6 className="m-b0 m-r10 d-inline">Tags:</h6>
-                                                <Link to={"#"}><span>OTC Deal Room</span></Link>
-                                                <Link to={"#"}><span>CashLink</span></Link>
-                                                <Link to={"#"}><span>Trading Desk</span></Link>
+                                                {/* <Link to={"#"}><span>OTC Deal Room</span></Link> */}
+                                                <Link to={"#"}><span>MUDA</span></Link>
+                                                <Link to={"#"}><span>OTC</span></Link>
                                             </div>
                                             <div className="dz-social-icon dark">
                                                 <ul>
@@ -172,7 +180,6 @@ function BlogDetails(){
                                                     </p>
                                                 </form>
                                             </div>
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -187,4 +194,4 @@ function BlogDetails(){
         </>
     )
 }
-export default BlogDetails;
+export default BlogOtc;

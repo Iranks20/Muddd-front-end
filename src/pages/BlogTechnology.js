@@ -5,7 +5,7 @@ import PageLayout from '../layouts/PageLayout';
 import BlogSidebar from '../components/Blog/BlogSidebar';
 
 //images
-import blog from './../assets/images/blog/blog-4.png';
+import blog from './../assets/images/blog/blog_1.png';
 import avat3 from './../assets/images/avatar/avatar6.png';
 import avat2 from './../assets/images/avatar/avatar6.png';
 import avat1 from './../assets/images/avatar/avatar1.jpg';
@@ -39,7 +39,7 @@ const CommentBlog = ({image, title}) =>{
     )
 }
 
-function BlogDetails(){
+function BlogTechnology(){
     return(
         <>
             <div className="page-content">
@@ -61,30 +61,32 @@ function BlogDetails(){
                                                         <span>BY MUDATECH</span>
                                                     </Link>
                                                 </li>
-                                                <li className="post-date"><Link to={"#"}>March 6th 2023</Link></li>
-                                                <li className="post-comment"><Link to={"#"}>UNCATEGORISED</Link></li>
+                                                <li className="post-date"><Link to={"#"}>March 22 2023</Link></li>
+                                                <li className="post-comment"><Link to={"#"}>ARTIFICIAL INTELLIGENCE, OPEN A.I, TECHNOLOGY</Link></li>
                                             </ul>
                                         </div>
-                                        <h3 className="dz-title">Introducing Muda Africa!</h3>
+                                        <h3 className="dz-title">The role of AI in the blockchain technology industry</h3>
                                         <div className="dz-post-text">
-                                            <p>There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!</p>
-                                            <p>So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda. From the flexibility of swapping and trading cryptocurrencies, to DeFi and NFT applications on a secure website and smartphone App. Muda makes decentralised finance accessible to anyone, anywhere, anytime!</p>
+                                            <p>AI has been one of the most transformative innovations of our generation. The technology is so robust that AI tools like Open AI’s Chat GPT are being alleged to potentially replace human jobs. However, the truth is that AI will only replace those who do not know how to use it and can be crucial to the success of various industries, including the blockchain industry.</p>
+                                            <p>Blockchain technology is a distributed ledger system that allows for secure, transparent, and immutable transactions. However, scalability remains a significant challenge in the industry. AI can improve scalability by optimising the consensus mechanism, which allows nodes on the network to agree on the validity of transactions.</p>
+                                            <p>It can also enhance security by detecting and preventing fraudulent activities (through its ability to analyze large volumes of data and identify patterns that are emblematic of suspicious behavior), which is important because security is critical in the blockchain industry.</p>
                                             <blockquote className="wp-block-quote">
-                                                <p>“ There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!”.</p>
-                                                <cite>mudatech</cite>
+                                                <p>"AI is not about replacing humans, it's about amplifying human potential."</p>
+                                                <cite>- Kai-Fu Lee</cite>
                                             </blockquote>
-                                            <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p>
-                                            <p>The token eco-system will consist of anchors will act to ensure network trust is maintained by locking the holdings into a liquidity pool that is then used to endorse the loan request from P2P sellers who would like to increase their operating capital. The issued loans will be used to process transactions and the generated fees will be sent to the liquidity pool as a profit for the anchors and other liquidity providers from the token holders. The MUDA token will be used to pay for fees, secure bonds, mint NFTs and much more.</p>
-                                            <ul className="m-b30">
+                                            <p>AI can also improve efficiency by automating certain processes, hence reducing the time it takes to process transactions. This will make the technology more attractive to businesses and individuals who require faster and more reliable transactions.</p>
+                                            <p>Additionally, AI can aid decision-making by analyzing data and providing insights, which is essential in the blockchain industry because decisions made on the network can have far-reaching consequences.</p>
+                                            <p>In conclusion, AI palys a significant role in improving the scalability, security, efficiency, and decision-making processes in the blockchain industry. As the blockchain industry continues to grow, the integration of AI is likely to become increasingly important in ensuring its success and sustainability.</p>
+                                            {/* <ul className="m-b30">
                                                 <li>MUDA is committed to growing financial inclusion through digital assets.</li>
-                                            </ul>
+                                            </ul> */}
                                         </div>
                                         <div className="dz-share-post">
                                             <div className="post-tags">
                                             <h6 className="m-b0 m-r10 d-inline">Tags:</h6>
-                                                <Link to={"#"}><span>OTC Deal Room</span></Link>
-                                                <Link to={"#"}><span>CashLink</span></Link>
-                                                <Link to={"#"}><span>Trading Desk</span></Link>
+                                                <Link to={"#"}><span>AI</span></Link>
+                                                <Link to={"#"}><span>OPEN AI</span></Link>
+                                                <Link to={"#"}><span>TECHNOLOGY</span></Link>
                                             </div>
                                             <div className="dz-social-icon dark">
                                                 <ul>
@@ -187,4 +189,4 @@ function BlogDetails(){
         </>
     )
 }
-export default BlogDetails;
+export default BlogTechnology;

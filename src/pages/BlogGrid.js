@@ -4,22 +4,22 @@ import {Link} from 'react-router-dom';
 import PageLayout from './../layouts/PageLayout';
 //images
 import pic1  from './../assets/images/blog/blog-4.png';
-import pic2  from './../assets/images/blog/pic2.jpg';
-import pic3  from './../assets/images/blog/pic3.jpg';
-import pic4  from './../assets/images/blog/pic4.jpg';
+import pic2  from './../assets/images/blog/blog_1.png';
+import pic3  from './../assets/images/blog/blog-5.png';
+import pic4  from './../assets/images/blog/blog-3.png';
 import pic5  from './../assets/images/blog/pic5.jpg';
 import pic6  from './../assets/images/blog/pic6.jpg';
 import avatar1  from './../assets/images/avatar/avatar6.png';
-import avatar2  from './../assets/images/avatar/avatar2.jpg';
-import avatar3  from './../assets/images/avatar/avatar3.jpg';
+import avatar2  from './../assets/images/avatar/avatar6.png';
+import avatar3  from './../assets/images/avatar/avatar6.png';
 
 const gridData = [
-    {image1: pic1, image2: avatar1, title:'Introducing Muda Africa!', date:'Marcg 6, 2023', owner:'UNCATEGORISED', description: 'There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto! So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda.'},
-    {image1: pic2, image2: avatar2, title:'7 Ingenious Ways You Can Do With Crypto'},
-    {image1: pic3, image2: avatar3, title:'14 Days To A Better Crypto Currency'},
-    {image1: pic4, image2: avatar2, title:'Why You Should Not Go To Cryptocurrency.'},
-    {image1: pic5, image2: avatar1, title:'Five Easy Rules Of bitcoin.'},
-    {image1: pic6, image2: avatar3, title:'14 Days To A Better Crypto Currency.'},
+    {image1: pic1, image2: avatar1, title:'Introducing Muda Africa!', date:'Mar 6, 2023', owner:'UNCATEGORISED', description: 'There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto! So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda.'},
+    {image1: pic2, image2: avatar2, title:'The role of AI in the blockchain technology industry', date: 'MAR 22 2023', owner: 'ARTIFICIAL INTELLIGENCE, OPEN AI, TECHNOLOGY', description: 'AI has been one of the most transformative innovations of our generation.'},
+    {image1: pic3, image2: avatar3, title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date: 'Jan 12th 2022', owner: 'DESIGN', description: 'MUDA, an established cryptocurrency OTC desk, is announcing the launch of The Deal Room; Pan-continental OTC desk. MUDA has been in operation in East Africa since 2019 and this development will give clients the ability to transact....' },
+    {image1: pic4, image2: avatar2, title:'How OTC Platforms are democratising access to investments', date: 'MARCH 31, 2023', owner: 'UNCATEGORISED', description: 'Over-the-counter (OTC) trading is a popular way of buying and selling digital assets without relying on an intermediary. OTC trading allows traders to negotiate directly with each other, avoid price slippage, and access higher liquidity.'},
+    // {image1: pic5, image2: avatar1, title:'Five Easy Rules Of bitcoin.'},
+    // {image1: pic6, image2: avatar3, title:'14 Days To A Better Crypto Currency.'},
 ];
 
 function BlogGrid(){
@@ -50,7 +50,7 @@ function BlogGrid(){
                                             </div>
                                             <h4 className="dz-title"><Link to={"/blog-details"}>{item.title}</Link></h4>
                                             <p>{item.description}</p>
-                                            <Link to={"/blog-details1"} className="btn btn-primary">Read More</Link>
+                                            <Link to={"/blog-otc"} className="btn btn-primary">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

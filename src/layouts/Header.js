@@ -55,9 +55,9 @@ function Header(){
                                       
                                     ><Link to={"#"}>Blog</Link>
                                         <ul className="sub-menu">
-                                            <li><NavLink to={"/blog-list"}>Blog list</NavLink></li>
+                                            {/* <li><NavLink to={"/blog-list"}>Blog list</NavLink></li> */}
                                             <li><NavLink to={"/blog-grid"}>Blog grid</NavLink></li>
-                                            <li><NavLink to={"/blog-details"}>Blog details</NavLink></li>
+                                            {/* <li><NavLink to={"/blog-details"}>Blog details</NavLink></li> */}
                                         </ul>
                                     </li>
                                     <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>

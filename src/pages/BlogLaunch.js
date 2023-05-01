@@ -5,7 +5,7 @@ import PageLayout from '../layouts/PageLayout';
 import BlogSidebar from '../components/Blog/BlogSidebar';
 
 //images
-import blog from './../assets/images/blog/blog-4.png';
+import blog from './../assets/images/blog/blog-5.png';
 import avat3 from './../assets/images/avatar/avatar6.png';
 import avat2 from './../assets/images/avatar/avatar6.png';
 import avat1 from './../assets/images/avatar/avatar1.jpg';
@@ -39,7 +39,7 @@ const CommentBlog = ({image, title}) =>{
     )
 }
 
-function BlogDetails(){
+function BlogLaunch(){
     return(
         <>
             <div className="page-content">
@@ -61,22 +61,22 @@ function BlogDetails(){
                                                         <span>BY MUDATECH</span>
                                                     </Link>
                                                 </li>
-                                                <li className="post-date"><Link to={"#"}>March 6th 2023</Link></li>
-                                                <li className="post-comment"><Link to={"#"}>UNCATEGORISED</Link></li>
+                                                <li className="post-date"><Link to={"#"}>January 12th 2022</Link></li>
+                                                <li className="post-comment"><Link to={"#"}>DESIGN</Link></li>
                                             </ul>
                                         </div>
-                                        <h3 className="dz-title">Introducing Muda Africa!</h3>
+                                        <h3 className="dz-title">MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk</h3>
                                         <div className="dz-post-text">
-                                            <p>There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!</p>
-                                            <p>So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda. From the flexibility of swapping and trading cryptocurrencies, to DeFi and NFT applications on a secure website and smartphone App. Muda makes decentralised finance accessible to anyone, anywhere, anytime!</p>
+                                            <p>MUDA, an established cryptocurrency OTC desk, is announcing the launch of The Deal Room; Pan-continental OTC desk. MUDA has been in operation in East Africa since 2019 and this development will give clients the ability to transact across several African and international locations and currencies. The Deal room has been designed to help its B2B clients that mainly consist of P2P traders and businesses that carry out cross border trade with access to quick and easy transactions. Customers will gain access to the service through the website and get served by a dedicated desk operator who will set them up with their own Deal Room for transactions.</p>
+                                            <p>The OTC desk is currently processing over $2million in daily volume, providing users with access to deep liquidity across multiple African currencies in order to enable them to easily access large amounts of crypto using local currencies and payment methods such as mobile money, cash and bank transfers at affordable rates. Some of the already active locations include Kenya, Uganda, Tanzania, Nigeria, Ghana, Burundi, South Africa, Dubai, Ivory coast, Zambia and Congo.</p>
+                                            <p>The expansion of the pan-continental OTC desk comes weeks ahead of the launch of the up coming online exchange and token sale. The Managing Director of MUDA Suleiman said;</p>
                                             <blockquote className="wp-block-quote">
-                                                <p>“ There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto!”.</p>
+                                                <p>“We have been working very hard in the background trying to push the crypto space forward because we strongly believe that it will generate a lot of opportunities for the youth to generate sustainable incomes and wealth .” He added, “We are glad to see the community right behind us on this journey as we continue to expand our reach.”</p>
                                                 <cite>mudatech</cite>
                                             </blockquote>
-                                            <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p>
-                                            <p>The token eco-system will consist of anchors will act to ensure network trust is maintained by locking the holdings into a liquidity pool that is then used to endorse the loan request from P2P sellers who would like to increase their operating capital. The issued loans will be used to process transactions and the generated fees will be sent to the liquidity pool as a profit for the anchors and other liquidity providers from the token holders. The MUDA token will be used to pay for fees, secure bonds, mint NFTs and much more.</p>
+                                            <p>Muda’s mission is to empower its users through decentralised assets by providing the tools to enable them to leverage blockchain technologies to their advantage.</p>
                                             <ul className="m-b30">
-                                                <li>MUDA is committed to growing financial inclusion through digital assets.</li>
+                                            <li>Interested traders can access our <a href="https://chatwith.io/s/muda">deal room here</a> and get started in minutes.</li>
                                             </ul>
                                         </div>
                                         <div className="dz-share-post">
@@ -187,4 +187,4 @@ function BlogDetails(){
         </>
     )
 }
-export default BlogDetails;
+export default BlogLaunch;
