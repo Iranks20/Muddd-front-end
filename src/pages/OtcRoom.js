@@ -49,7 +49,7 @@ function BlogDetails(){
         <>
             <div className="page-content">
                 <PageLayout desc={false} pageTitle="OTC Deal Room" />
-                <section className="content-inner" style={{background: "white"}}>
+                <section className="bg-light content-inner" style={{background: "white"}}>
                     <div className="container">
                         <div className="row ">
                             <div className="col-xl-8 col-lg-8">

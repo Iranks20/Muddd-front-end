@@ -9,7 +9,7 @@ import RecentNews from './../components/Home/RecentNews';
 
 //images
 import baner1 from './../assets/images/home-banner/img1.png';
-import baner2 from './../assets/images/home-banner/img2.png';
+import baner2 from './../assets/images/home-banner/img1.png';
 import Shape1 from './../assets/images/home-banner/shape2.png';
 import Shape3 from './../assets/images/home-banner/shape4.png';
 import wallet from './../assets/images/icons/wallet.svg';

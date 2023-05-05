@@ -116,7 +116,7 @@
   --bs-info: #00aeff;
   --bs-warning: #FFBB69;
   --bs-danger: #EB5757;
-  --bs-light: #F0EAFF;
+  --bs-light: #f2f7ff	;
   --bs-dark: #212529;
   --bs-primary-rgb: 148, 103, 254;
   --bs-secondary-rgb: 54, 36, 101;
@@ -1535,7 +1535,7 @@ progress {
   border-color: #e2c7c7; }
 
 .table-light {
-  --bs-table-bg: #F0EAFF;
+  --bs-table-bg: #f2f7ff	;
   --bs-table-striped-bg: #e4def2;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #d8d3e6;
@@ -2448,8 +2448,8 @@ textarea.form-control-lg {
 
 .btn-light {
   color: #000;
-  background-color: #F0EAFF;
-  border-color: #F0EAFF; }
+  background-color: #f2f7ff	;
+  border-color: #f2f7ff	; }
   .btn-light:hover {
     color: #000;
     background-color: #f2edff;
@@ -2471,8 +2471,8 @@ textarea.form-control-lg {
       box-shadow: 0 0 0 0rem rgba(204, 199, 217, 0.5); }
   .btn-light:disabled, .btn-light.disabled {
     color: #000;
-    background-color: #F0EAFF;
-    border-color: #F0EAFF; }
+    background-color: #f2f7ff	;
+    border-color: #f2f7ff	; }
 
 .btn-dark {
   color: #ffffff;
@@ -2629,24 +2629,24 @@ textarea.form-control-lg {
     background-color: transparent; }
 
 .btn-outline-light {
-  color: #F0EAFF;
-  border-color: #F0EAFF; }
+  color: #f2f7ff	;
+  border-color: #f2f7ff	; }
   .btn-outline-light:hover {
     color: #000;
-    background-color: #F0EAFF;
-    border-color: #F0EAFF; }
+    background-color: #f2f7ff	;
+    border-color: #f2f7ff	; }
   .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
     box-shadow: 0 0 0 0rem rgba(240, 234, 255, 0.5); }
   .btn-check:checked + .btn-outline-light,
   .btn-check:active + .btn-outline-light, .btn-outline-light:active, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show {
     color: #000;
-    background-color: #F0EAFF;
-    border-color: #F0EAFF; }
+    background-color: #f2f7ff	;
+    border-color: #f2f7ff	; }
     .btn-check:checked + .btn-outline-light:focus,
     .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
       box-shadow: 0 0 0 0rem rgba(240, 234, 255, 0.5); }
   .btn-outline-light:disabled, .btn-outline-light.disabled {
-    color: #F0EAFF;
+    color: #f2f7ff	;
     background-color: transparent; }
 
 .btn-outline-dark {
@@ -5076,7 +5076,7 @@ textarea.form-control-lg {
     color: #ef7979; }
 
 .link-light {
-  color: #F0EAFF; }
+  color: #f2f7ff	; }
   .link-light:hover, .link-light:focus {
     color: #f3eeff; }
 
@@ -5411,7 +5411,7 @@ textarea.form-control-lg {
   border-color: #EB5757 !important; }
 
 .border-light {
-  border-color: #F0EAFF !important; }
+  border-color: #f2f7ff	 !important; }
 
 .border-dark {
   border-color: #212529 !important; }
@@ -8233,7 +8233,7 @@ strong,
 
 .content-inner-2 {
   padding-top: 100px;
-  background: #F0EAFF !important; }
+  background: #f2f7ff	 !important; }
   @media only screen and (max-width: 1480px) {
     .content-inner-2 {
       padding-top: 70px; } }
@@ -8274,7 +8274,7 @@ strong,
   border: 1px solid #dee2e6 !important; }
 
 .bg-light {
-  background-color: #F8F5FF !important; }
+  background-color: #f2f7ff			 !important; }
 
 .preloader-wrapper-1,
 .preloader-wrapper-2 {
@@ -11131,7 +11131,7 @@ section {
   position: relative;
   z-index: 2;
   width: 100%;
-  background-image: url(../images/banner/bnr.png);
+  background-image: url(../images/banner/bnr1.png);
   background-color: #172c50;
   position: relative; }
   @media only screen and (max-width: 991px) {
@@ -11753,7 +11753,7 @@ footer {
   .wp-block-archives-dropdown select:active, .form-control.active, .wp-block-categories-dropdown select.active,
   .wp-block-archives-dropdown select.active {
     border-color: var(--primary);
-    background: #F0EAFF; }
+    background: #f2f7ff	; }
   @media only screen and (max-width: 575px) {
     .form-control, .wp-block-categories-dropdown select,
     .wp-block-archives-dropdown select {
@@ -12003,7 +12003,7 @@ label.error {
   font-weight: 400;
   color: #172c50;
   transition: all 0.3s ease-in-out;
-  background-color: #F0EAFF; }
+  background-color: #f2f7ff	; }
   .form-select .dropdown-toggle, select .dropdown-toggle {
     border: 0 !important;
     padding: 0;
@@ -12478,7 +12478,7 @@ button:focus {
   .badge.badge-danger {
     background-color: #EB5757; }
   .badge.badge-light {
-    background-color: #F0EAFF; }
+    background-color: #f2f7ff	; }
 
 .table-responsive-sm {
   min-width: 48rem; }
@@ -15706,7 +15706,7 @@ ul a.rsswidget {
   transition: all 0.5s;
   display: flex;
   position: relative;
-  background: #F8F5FF; }
+  background: #f2f7ff			; }
   @media only screen and (max-width: 767px) {
     .dz-card.style-1.blog-half {
       display: block; } }
@@ -16075,7 +16075,7 @@ ul a.rsswidget {
     transition: all 0.8s;
     width: 100%;
     display: block;
-    background: #F0EAFF;
+    background: #f2f7ff	;
     color: #172c50;
     font-weight: 400;
     font-size: 16px;
@@ -16112,7 +16112,7 @@ ul a.rsswidget {
   overflow: hidden; }
 
 .bg-primary-light {
-  background-color: #F0EAFF; }
+  background-color: #f2f7ff	; }
 
 .main-bnr {
   height: 920px;
@@ -16388,7 +16388,7 @@ ul a.rsswidget {
   .form-wrapper-box.style-1 .form-control, .form-wrapper-box.style-1 .wp-block-categories-dropdown select, .wp-block-categories-dropdown .form-wrapper-box.style-1 select,
   .form-wrapper-box.style-1 .wp-block-archives-dropdown select, .wp-block-archives-dropdown .form-wrapper-box.style-1 select {
     z-index: 1 !important;
-    background-color: #F0EAFF;
+    background-color: #f2f7ff	;
     font-size: 16px;
     color: #000;
     -webkit-transition: all 0.8s;
@@ -16508,10 +16508,10 @@ ul a.rsswidget {
     .form-control.custom-image-select-1 .dropdown-menu.inner .dropdown-item, .wp-block-categories-dropdown select.custom-image-select-1 .dropdown-menu.inner .dropdown-item, .wp-block-archives-dropdown select.custom-image-select-1 .dropdown-menu.inner .dropdown-item {
       color: #000; }
       .form-control.custom-image-select-1 .dropdown-menu.inner .dropdown-item.active, .wp-block-categories-dropdown select.custom-image-select-1 .dropdown-menu.inner .dropdown-item.active, .wp-block-archives-dropdown select.custom-image-select-1 .dropdown-menu.inner .dropdown-item.active {
-        background-color: #F0EAFF; }
+        background-color: #f2f7ff	; }
   .form-control.custom-image-select-1 .dropdown-toggle, .wp-block-categories-dropdown select.custom-image-select-1 .dropdown-toggle, .wp-block-archives-dropdown select.custom-image-select-1 .dropdown-toggle {
     position: relative;
-    background-color: #F0EAFF;
+    background-color: #f2f7ff	;
     color: #7E87BF !important;
     font-weight: 400 !important;
     font-size: 16px !important;
@@ -16578,7 +16578,7 @@ ul a.rsswidget {
     left: 0;
     bottom: 0;
     position: absolute;
-    background-color: #f8f5ff;
+    background-color: #f2f7ff			;
     height: 70px;
     z-index: -1; }
   .section-wrapper1 .bg-shape1 {
@@ -16967,7 +16967,7 @@ ul a.rsswidget {
   content: none; }
 
 .select-drop .select-drop-toggle {
-  background-color: #F0EAFF;
+  background-color: #f2f7ff	;
   color: #7E87BF;
   font-weight: 400;
   font-size: 16px;
@@ -16995,7 +16995,7 @@ ul a.rsswidget {
     margin-right: 10px; }
 
 .select-drop.show .dropdown-toggle {
-  background-color: #F0EAFF; }
+  background-color: #f2f7ff	; }
 
 .blog-single {
   margin-bottom: 3.75rem; }
