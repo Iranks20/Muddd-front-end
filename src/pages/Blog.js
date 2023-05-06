@@ -14,7 +14,7 @@ import avatar2  from './../assets/images/avatar/avatar6.png';
 import avatar3  from './../assets/images/avatar/avatar6.png';
 
 const gridData = [
-    {image1: pic1, path: '/blog-otc', image2: avatar1, title:'Introducing Muda Africa!', date:'Mar 6, 2023', owner:'UNCATEGORISED', description: 'There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto! So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda.'},
+    {image1: pic1, path: '/blog-muda', image2: avatar1, title:'Introducing Muda Africa!', date:'Mar 6, 2023', owner:'UNCATEGORISED', description: 'There is a good chance that in the future, physical wallets will die out and you will be storing money on your smartphones, and that money will be crypto! So ask you’re self, what coin can I buy now, to make it big in the near future? Get access to the best crypto currencies in the world on Muda.'},
     {image1: pic2, path: '/blog-technology', image2: avatar2, title:'The role of AI in the blockchain technology industry', date: 'MAR 22 2023', owner: 'ARTIFICIAL INTELLIGENCE, OPEN AI, TECHNOLOGY', description: 'AI has been one of the most transformative innovations of our generation.'},
     {image1: pic3, path: '/blog-launch', image2: avatar3, title:'MUDA Launch of ‘The Deal Room’ a Pan-continental OTC desk', date: 'Jan 12th 2022', owner: 'DESIGN', description: 'MUDA, an established cryptocurrency OTC desk, is announcing the launch of The Deal Room; Pan-continental OTC desk. MUDA has been in operation in East Africa since 2019 and this development will give clients the ability to transact....' },
     {image1: pic4, path: '/blog-otc', image2: avatar2, title:'How OTC Platforms are democratising access to investments', date: 'MARCH 31, 2023', owner: 'UNCATEGORISED', description: 'Over-the-counter (OTC) trading is a popular way of buying and selling digital assets without relying on an intermediary. OTC trading allows traders to negotiate directly with each other, avoid price slippage, and access higher liquidity.'},
@@ -27,7 +27,7 @@ function BlogGrid(){
         <>
             <div className="page-content">
                 <PageLayout pageTitle="Our Blog Page" />
-                <section className="content-inner">
+                <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row">
                             {gridData.map((item, ind)=>(

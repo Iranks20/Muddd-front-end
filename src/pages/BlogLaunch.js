@@ -44,7 +44,7 @@ function BlogLaunch(){
         <>
             <div className="page-content">
                 <PageLayout desc={false} pageTitle="Blog Details " />
-                <section className="content-inner" style={{background: "white"}}>
+                <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">
                             <div className="col-xl-8 col-lg-8">
@@ -52,7 +52,7 @@ function BlogLaunch(){
                                     <div className="dz-media dz-media-rounded">
                                         <img src={blog} alt="" />
                                     </div>
-                                    <div className="dz-info m-b30">
+                                    <div className="bg-light dz-info m-b30">
                                         <div className="dz-meta">
                                             <ul>
                                                 <li className="post-author">

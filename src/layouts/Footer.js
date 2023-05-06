@@ -5,7 +5,7 @@ import { Link} from 'react-router-dom';
 import shape1 from './../assets/images/home-banner/shape2.png';
 import bgimage from './../assets/images/background/bg1.jpg';
 import logowhite from './../assets/images/logo-white.png';
-import flags from './../assets/images/footer/world-map-with-flags1.png';
+// import flags from './../assets/images/footer/world-map-with-flags1.png';
 
 function Footer(){
     return(
@@ -69,7 +69,7 @@ function Footer(){
                                     <div className="clearfix">
                                         <h6 className="title">UGANDA</h6>
                                         <p>Top House, Plot 65, Kampala Road, Uganda</p>
-                                        <img src={flags} alt="" />
+                                        {/* <img src={flags} alt="" /> */}
                                     </div>
                                 </div>
                             </div>

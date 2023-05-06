@@ -44,11 +44,11 @@ function BlogOtc(){
         <>
             <div className="page-content">
                 <PageLayout desc={false} pageTitle="Blog Details " />
-                <section className="content-inner" style={{background: "white"}}>
+                <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">
                             <div className="col-xl-8 col-lg-8">
-                                <div className="blog-single dz-card sidebar">
+                                <div className="bg-light blog-single dz-card sidebar">
                                     <div className="dz-media dz-media-rounded">
                                         <img src={blog} alt="" />
                                     </div>
