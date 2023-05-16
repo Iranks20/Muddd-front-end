@@ -20,7 +20,7 @@ function Footer(){
                                     <div className="footer-logo logo-white">
                                         <Link to={"/"}><img src={logowhite} alt="" /></Link>
                                     </div>
-                                    <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p>
+                                    {/* <p>Muda is launching a token to power our eco-system, in order to provide decentralised finance to the masses. The MUDA token will power various solutions such as loans for P2P traders who form the crypto liquidity backbone in many developing countries, allowing millions to access crypto. MUDA plans to supercharge the P2P marketplace with DeFi loans that will be secured using the token.</p> */}
                                     <div className="dz-social-icon transparent space-10">
                                         <ul>
                                             <li><a className="fab fa-google" href="mailto:info@muda.tech"></a></li>
@@ -35,11 +35,12 @@ function Footer(){
                                 <div className="widget widget_services">
                                     <h4 className="widget-title">Other Links</h4>
                                     <ul>
-                                        <li><Link to={"/otc-room"}>OTC Deal Room</Link></li>
-                                        <li><Link to={"/cash-link"}>CashLink</Link></li>
-                                        <li><Link to={"/blog"}>blog</Link></li>
+                                        <li><Link to={"/otc-room"}>OTC Desk</Link></li>
+                                        {/* <li><Link to={"/cash-link"}>CashLink</Link></li> */}
+                                        {/* <li><Link to={"/blog"}>blog</Link></li> */}
                                         <li><Link to={"/blog"}>Our Blogs</Link></li>
-                                        <li><Link to={"/contact-us"}>Contact Us</Link></li>
+                                        <li><Link to={"/blog"}>Products</Link></li>
+                                        {/* <li><Link to={"/contact-us"}>Contact Us</Link></li> */}
                                     </ul>
                                 </div>
                             </div>

@@ -7,9 +7,7 @@ import pic3 from './../../assets/images/blog/small/blog-3.png';
 
 
 const categories = [
-    {title:'Home'}, {title:'OTC Deal Room'},
-    {title:'Cash Link'}, {title:'Go To Exchange'},
-    {title:'Trading Desk'}, {title:'Contact Us'}
+    {title:'Home'}, {title:'Products'}, {title:'Blog'}, {title:'OTC Deal Room'}, {title:'Exchange'},
 ];
 const postData = [
     {image: pic1, path: '#/blog-technology', title:'The role of AI in the blockchain technology industry', date:'March 22 2023'},
@@ -53,7 +51,7 @@ const BlogSidebar = () =>{
                     <ul>
                         {categories.map((data, ind)=>(
                             <li className="cat-item" key={ind}>
-                                <Link to={"#"}>{data.title}</Link>
+                                <a to={"#"}>{data.title}</a>
                             </li>
                         ))}
                     </ul>
@@ -88,7 +86,7 @@ const BlogSidebar = () =>{
                     </div>
                     <div className="tagcloud">
                         {tagData.map((data, index)=>(
-                            <Link to={"#"} key={index}>{data.title}</Link>
+                            <a to={"#"} key={index}>{data.title}</a>
                         ))}
                         
                     </div>

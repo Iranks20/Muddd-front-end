@@ -37,8 +37,8 @@ function Header(){
                             </button>                            
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                    <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Go To Exchange</a>
-                                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Trading Desk</a>
+                                    <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Exchange</a>
+                                    {/* <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Trading Desk</a> */}
                                 </div>
                             </div>                           
                                 
@@ -48,10 +48,11 @@ function Header(){
                                 </div>                            
                                 <ul className="nav navbar-nav navbar">
                                     <li><NavLink to={"/"}>Home</NavLink></li>
-                                    <li><NavLink to={"/otc-room"}>OTC Deal Room</NavLink></li>
-                                    <li><NavLink to={"/cash-link"}>CashLink</NavLink></li>
-                                    <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
+                                    <li><NavLink to={"/otc-room"}>OTC Desk</NavLink></li>
+                                    {/* <li><NavLink to={"/cash-link"}>CashLink</NavLink></li> */}
+                                    {/* <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
                                     <li><NavLink to={"/blog"}>Blog</NavLink></li>
+                                    <li><NavLink to={"/products"}>Products</NavLink></li>
                                     {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       

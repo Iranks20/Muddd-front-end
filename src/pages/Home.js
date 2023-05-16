@@ -4,28 +4,32 @@ import {Dropdown} from 'react-bootstrap';
 
 //components
 import BannerCard from './../components/Home/BannerCard';
+import BannerCard2 from '../components/Home/BannerCard2';
 import OneStop from './../components/Home/OneStop';
 import RecentNews from './../components/Home/RecentNews';
 
 //images
 import baner1 from './../assets/images/home-banner/img1.png';
-import baner2 from './../assets/images/home-banner/img1.png';
+import baner2 from './../assets/images/home-banner/blog-9.png';
 import Shape1 from './../assets/images/home-banner/shape2.png';
 import Shape3 from './../assets/images/home-banner/shape4.png';
-import wallet from './../assets/images/icons/wallet.svg';
-import friend from './../assets/images/icons/friend.svg';
+import wallet from './../assets/images/icons/friendz.jpg';
+import friend from './../assets/images/icons/friend.png';
 
 import coin1 from './../assets/images/coins/coin1.png';
 import coin3 from './../assets/images/coins/coin3.png';
 import coin4 from './../assets/images/coins/coin4.png';
+// import google from './../assets/images/coins/google2.png';
+import pic2 from './../assets/images/coins/pic2.jpg';
+import pic3 from './../assets/images/coins/pic3.jpg';
 
 import bloglg from './../assets/images/blog/blog-ig.png';
 import avatar3 from './../assets/images/avatar/avatar7.svg';
 
 
 const trustBlog = [
-	{image: wallet, title:' OTC & Crypto Exchange', text:'Muda Operates a leading OTC desk that provids crucial liquidity to the East African Marketplace supporting P2P traders with more than $2 million in daily volume.'}, 
-	{image: friend, title:'DeFi Platform', text:'Muda is developing various DeFi products that will provide liquidity to the massive global P2P marketplace, power remittances to emerging markets and enable global investors to tap into the rapidly growing Microfinance industry through asset backed financing on the blockchain.'}, 
+	{image: wallet, title:' Sandra Johns', text:'“ I started using the Muda OTC desk this year and i really love how fast and instant my transactions are executed'}, 
+	{image: friend, title:'Pacho Micho', text:'"The ability to send large transactions to Ghana for my business without any delay is what made me a long time client"'}, 
 ];
 
 function Home(){
@@ -35,6 +39,7 @@ function Home(){
         nav("/contact-us");
     };
 	const [selecttext, setSelectText] = useState([coin4, 'Bitcoin']);
+	const [selectedtext, setSelectedText] = useState('Sell');
 	return(
 		<>
 			<div className="page-content">				
@@ -43,7 +48,7 @@ function Home(){
 						<div className="row align-items-center">
 							<div className="col-12 text-center">
 								<h1 className="" >Move Money To All Corners <br />Of The World!​</h1>
-								<p className="text text-primary " >Transfer USD, EUR, or Crypto and start trading today!</p>
+								<p className="text text-primary " >Buy, Sell, trade and send different currencies with us today access the deposit liquidity on the continent today</p>
 								<a href="https://www.muda.exchange" className="btn space-lg btn-gradient btn-shadow btn-primary " >Get Started</a>
 								<ul className="image-before">
 									<li className="left-img"><img src={baner1} alt="" /></li>
@@ -67,44 +72,15 @@ function Home(){
 					</div>
 				</div>
 				<section className="clearfix section-wrapper1 bg-primary-light">
-					<div className="container">
-						<div className="content-inner-1">
-							<div className="section-head text-center">
-								<h2 className="title">Why Trust Us?</h2>
-								<p>Discover why businesses choose MUDA to send money across borders.</p>
-							</div>
-							<div className="row">
-								{trustBlog.map((data, ind)=>(
-									<div className="col-lg-6 m-b30"  key={ind}>
-										<div className="icon-bx-wraper style-2">
-											<div className="icon-media">
-												<img src={data.image} alt="" />
-											</div>
-											<div className="icon-content">
-												<h4 className="title">{data.title}</h4>
-												<p>{data.text}</p>
-												<a  className="btn btn-primary btn-gradient btn-shadow" href="https://www.muda.exchange/">Read More</a>
-											</div>
-										</div>
-									</div>
-								))}	
-								
-							</div>
-						</div>
-					</div>
-					<div className="container">
+				    <div className="container">
 						<div className="form-wrapper-box style-1 text-center">
 							<div className="section-head " >
-								<h4 className="title m-t0">How to Purchase from us ?</h4>
-								<p>Fill out the below form and we will contact you via email & details</p>
+								<h4 className="title m-t0">Trade Now</h4>
 							</div>
 							<form  className="dz-form"  onSubmit={(e) => formDetails(e)}>
 								<div className="form-wrapper">
 									<div className="flex-1">
 										<div className="row g-3">
-											<div className="col-xl-3 col-md-6 " >
-												<input name="dzName" type="text" required="" placeholder="Wallet Address" className="form-control" />
-											</div>
 											<div className="col-xl-3 col-md-6 " >
 												<Dropdown className="select-drop">
 													<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
@@ -124,19 +100,74 @@ function Home(){
 											<div className="col-xl-3 col-md-6 ">
 												<input name="dzName" type="text" required="" placeholder="Email Address" className="form-control" />
 											</div>
+											<div className="col-xl-3 col-md-6 " >
+											<Dropdown className="select-drop">
+											<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
+												{selectedtext === 'Sell' ? 'Sell' : 'Buy'} <i className="fa-sharp fa-solid fa-angle-down" />
+											</Dropdown.Toggle>
+											<Dropdown.Menu>
+												<Dropdown.Item onClick={() => setSelectedText('Sell')}>Sell</Dropdown.Item>
+												<Dropdown.Item onClick={() => setSelectedText('Buy')}>Buy</Dropdown.Item>
+											</Dropdown.Menu>
+											</Dropdown>
+											</div>
 										</div>
 									</div>
-									<button type="submit" className="btn btn-lg btn-gradient btn-primary btn-shadow">Get Strated</button>
+									<a href="https://otc.muda.exchange" className="btn btn-lg btn-gradient btn-primary btn-shadow">Get Price</a>
 								</div>
 							</form>
 						</div>
 					</div>
+					<div className="container">
+						<div className="content-inner-1">
+							<div className="section-head text-center">
+								<h2 className="title">Why Trust Us?</h2>
+								<p>Discover why businesses choose MUDA to send money across borders.</p>
+							</div>
+							<div className="widget-title">
+								<h4 className="title">Testimonials</h4>
+							</div>
+							<div className="row">
+								{trustBlog.map((data, ind)=>(
+									<div className="col-lg-6 m-b30"  key={ind}>
+										<div className="icon-bx-wraper style-2">
+											<div className="icon-media">
+												<img src={data.image} alt="" />
+											</div>
+											<div className="icon-content">
+												<h4 className="title">{data.title}</h4>
+												<p>{data.text}</p>
+												{/* <a  className="btn btn-primary btn-gradient btn-shadow" href="https://www.muda.exchange/">Read More</a> */}
+											</div>
+										</div>
+									</div>
+								))}	
+								
+							</div>
+						</div>
+					</div>
 					<img className="bg-shape1" src={Shape1} alt="" />
-				</section>
-				<section className="content-inner bg-light icon-section section-wrapper2">
+					</section>
+					<div className="container">
+						<div className="form-wrapper-box style-1 text-center">
+							<div className="section-head " >
+								<h4 className="title m-t0">Our Sponsors</h4>
+								{/* Add any additional content here */}
+							</div>
+							<div className="sponsor-icons">
+								{/* Add your sponsor icons here */}
+								<img src={coin1} alt="Sponsor 1" />
+								<img src={coin4} alt="Sponsor 2" />
+								<img src={coin3} alt="Sponsor 3" />
+								{/* <img src={google} alt="Sponsor 4" /> */}
+								{/* Add as many sponsor icons as needed */}
+							</div>
+						</div>
+					</div>
+					<section className="content-inner bg-light icon-section section-wrapper2">
 					<div className="container">
 						<div className="section-head text-center">
-							<h2 className="title">One-stop solution to buy and sell <span className="text-primary"> cryptocurrency </span> with Cash</h2>
+							<h2 className="title">One stop liquidity solution for currency trading in Africa</h2>
 						</div>
 						<div className="row sp60">
 							<OneStop />
@@ -144,7 +175,7 @@ function Home(){
 					</div>
 					<img className="bg-shape1" src={Shape1} alt="" />
 				</section>
-				<section className="content-inner bg-white blog-wrapper">
+				{/* <section className="content-inner bg-white blog-wrapper">
 					<img className="bg-shape1" src={Shape1} alt="" />
 
 					<div className="container">
@@ -167,12 +198,6 @@ function Home(){
 										<h2 className="dz-title"><Link to={"/otc-room"} className="text-white">Over-The-Counter(OTC)</Link></h2>
 										<div className="dz-meta">
 											<ul>
-												{/* <li className="post-author"> */}
-													{/* <Link to={"#"}> */}
-														{/* <img src={avatar3} alt=""  className="me-2"/> */}
-														{/* <span>By Noare</span> */}
-													{/* </Link> */}
-												{/* </li> */}
 												<li className="post-date"><img src={avatar3} alt=""  className="me-2"/></li>
 											</ul>
 										</div>
@@ -181,7 +206,7 @@ function Home(){
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</div>		
 		</>
 	)
