@@ -11,6 +11,7 @@ import RecentNews from './../components/Home/RecentNews';
 //images
 import baner1 from './../assets/images/home-banner/img1.png';
 import baner2 from './../assets/images/home-banner/blog-9.png';
+import Shape5 from './../assets/images/home-banner/google-pay.png';
 import Shape1 from './../assets/images/home-banner/shape2.png';
 import Shape3 from './../assets/images/home-banner/shape4.png';
 import wallet from './../assets/images/icons/friendz.jpg';
@@ -175,6 +176,24 @@ function Home(){
 					</div>
 					<img className="bg-shape1" src={Shape1} alt="" />
 				</section>
+				<div className="container">
+					<div className="text-center">
+						<div className="section-head text-center " >
+						    <p>Get the Muda mobile app</p>
+							<h4 className="title m-t0">We’ve created the mobile app you need for trading Crypto on the go.</h4>
+						</div>
+						<div className="sponsor-icons">
+						   <a href="https://play.google.com/store/apps/details?id=com.muda.exchange&hl=en_US&gl=US&pli=1">
+							<img src={Shape5} alt="click me to download our app" />
+						   </a>
+						</div>
+						<br></br>
+						<div className="section-head text-center " >
+							<p>Buy, Sell, Send, Receive and Manage your crypto securely on your mobile devices – No stress, No hustle.</p>
+						</div>
+					</div>
+				</div>
+				<br></br>
 				{/* <section className="content-inner bg-white blog-wrapper">
 					<img className="bg-shape1" src={Shape1} alt="" />
 

@@ -11,7 +11,7 @@ import pic1 from './../../assets/images/about/pic1.jpg';
 import support1 from './../../assets/images/icons/support1.png';
 
 const cardData = [
-    {image: Icon9, title:'Digita Asset Trading', text:'Easily buy and sell digital assets with us using best fast payment methods'},
+    {image: Icon9, title:'Digital Asset Trading', text:'Easily buy and sell digital assets with us using best fast payment methods'},
     {image: Icon10, title:'Fast and Secure', text:'We ensure all transactions are settled in the shortest time possiblle and mantain client safety using our escrow infrasructure'},
     {image: Icon11, title:'Sign Up', text:'Get started on our platform in minutes with our hassle-free sign-up procedures.'},
     // {image: Icon12, title:' DeFi Platform', text:'Muda is developing various DeFi products that will provide liquidity to the massive global P2P marketplace, power remittances to emerging markets and enable global investors to tap into the rapidly growing Microfinance industry through asset backed financing on the blockchain.'},

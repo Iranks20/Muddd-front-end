@@ -43,7 +43,7 @@ function BlogOtc(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="Blog Details " />
+                <PageLayout desc={false} pageTitle="Over-the-counter(OTC) " />
                 <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">

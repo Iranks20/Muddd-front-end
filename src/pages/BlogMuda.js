@@ -43,7 +43,7 @@ function BlogDetails(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="Blog Details " />
+                <PageLayout desc={false} pageTitle="What Is Muda? " />
                 <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">

@@ -11,7 +11,7 @@ import Pricing from './Pricing';
 import Blog from './BlogList';
 import OtcRoom from './OtcRoom';
 import BlogMuda from './BlogMuda';
-// import ContactUs from './ContactUs';
+import ContactUs from './ContactUs';
 import BlogTechnology from './BlogTechnology';
 import BlogLaunch from './BlogLaunch';
 import BlogOtc from './BlogOtc';
@@ -32,7 +32,7 @@ function Index(){
 						<Route path='/blog' exact element={<Blog />} />
 						<Route path='/otc-room' exact element={<OtcRoom />} />
 						<Route path='/blog-muda' exact element={<BlogMuda />} />
-						{/* <Route path='/contact-us' exact element={<ContactUs />} /> */}
+						<Route path='/contact-us' exact element={<ContactUs />} />
 						<Route path='/blog-technology' exact element={<BlogTechnology />} />
 						<Route path='/blog-launch' exact element={<BlogLaunch />} />
 						<Route path='/blog-otc' exact element={<BlogOtc />} />

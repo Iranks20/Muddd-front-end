@@ -18,15 +18,15 @@ function BlogProducts(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="Product Details " />
+                <PageLayout desc={false} pageTitle={title} />
                 <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">
                             <div className="col-xl-8 col-lg-8">
                                 <div className="bg-light blog-single dz-card sidebar">
-                                    <div className="dz-media dz-media-rounded">
+                                    {/* <div className="dz-media dz-media-rounded">
                                         <img src={image} alt="" />
-                                    </div>
+                                    </div> */}
                                     <div className="dz-info m-b30">
                                         {/* <div className="dz-meta">
                                             <ul>
@@ -54,7 +54,7 @@ function BlogProducts(){
                                                 <li>MUDA is committed to growing financial inclusion through digital assets.</li>
                                             </ul> */}
                                         </div>
-                                        <div className="dz-share-post">
+                                        {/* <div className="dz-share-post">
                                             <div className="post-tags">
                                             <h6 className="m-b0 m-r10 d-inline">Tags:</h6>
                                                 <Link to={"#"}><span>OTC Deal Room</span></Link>
@@ -69,13 +69,13 @@ function BlogProducts(){
                                                     <li><a target="_blank" className="fab fa-youtube" href="https://www.youtube.com/@mudatech"></a></li>
                                                 </ul>
                                             </div>									
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4">
+                            {/* <div className="col-xl-4 col-lg-4">
                                 <BlogSidebar />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

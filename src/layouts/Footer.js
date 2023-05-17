@@ -27,6 +27,7 @@ function Footer(){
                                             <li><a target="_blank" className="fab fa-instagram" href="https://instagram.com/muda_hq?igshid=YmMyMTA2M2Y="></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/mudatech_?t=9xUIcKAWXE2KFGl-wtrkrA&s=09"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-youtube" href="https://www.youtube.com/@mudatech"></a></li>
+                                            <li><a target="_" className="fab fa-google-play"href="https://play.google.com/store/apps/details?id=com.muda.exchange&hl=en_US&gl=US&pli=1"></a></li>
                                         </ul>
                                     </div>
                                 </div>

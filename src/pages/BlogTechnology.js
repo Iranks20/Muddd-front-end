@@ -43,7 +43,7 @@ function BlogTechnology(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="Blog Details " />
+                <PageLayout desc={false} pageTitle="AI in the blockchain technology" />
                 <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">

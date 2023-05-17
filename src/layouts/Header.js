@@ -38,7 +38,7 @@ function Header(){
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                     <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Exchange</a>
-                                    {/* <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Trading Desk</a> */}
+                                    <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://otc.muda.exchange/">Trading Desk</a>
                                 </div>
                             </div>                           
                                 
@@ -50,9 +50,9 @@ function Header(){
                                     <li><NavLink to={"/"}>Home</NavLink></li>
                                     <li><NavLink to={"/otc-room"}>OTC Desk</NavLink></li>
                                     {/* <li><NavLink to={"/cash-link"}>CashLink</NavLink></li> */}
-                                    {/* <li><NavLink to={"/contact-us"}>Contact</NavLink></li> */}
                                     <li><NavLink to={"/blog"}>Blog</NavLink></li>
                                     <li><NavLink to={"/products"}>Products</NavLink></li>
+                                    <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                     {/* <li className={`sub-menu-down ${showMenu ? "open" : ""}`} id="menushow"
                                        onClick={()=>setShowMenu(!showMenu)}
                                       
@@ -73,6 +73,7 @@ function Header(){
                                             <li><a target="_blank" className="fab fa-instagram" href="https://instagram.com/muda_hq?igshid=YmMyMTA2M2Y="></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-twitter" href="https://twitter.com/mudatech_?t=9xUIcKAWXE2KFGl-wtrkrA&s=09"></a></li>{" "}
                                             <li><a target="_blank" className="fab fa-youtube" href="https://www.youtube.com/@mudatech"></a></li>
+                                            <li><a target="_" className="fab fa-google-play"href="https://play.google.com/store/apps/details?id=com.muda.exchange&hl=en_US&gl=US&pli=1"></a></li>
                                         </ul>
                                     </div>	
                                 </div>

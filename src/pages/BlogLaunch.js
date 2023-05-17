@@ -43,7 +43,7 @@ function BlogLaunch(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="Blog Details " />
+                <PageLayout desc={false} pageTitle="MUDA Launch of ‘The Deal Room’" />
                 <section className="bg-light content-inner">
                     <div className="container">
                         <div className="row ">
