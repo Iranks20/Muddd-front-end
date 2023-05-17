@@ -165,6 +165,7 @@ function Home(){
 							</div>
 						</div>
 					</div>
+					<br></br>
 					<section className="content-inner bg-light icon-section section-wrapper2">
 					<div className="container">
 						<div className="section-head text-center">
