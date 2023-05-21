@@ -11,7 +11,8 @@ import RecentNews from './../components/Home/RecentNews';
 //images
 import baner1 from './../assets/images/home-banner/img1.png';
 import baner2 from './../assets/images/home-banner/blog-9.png';
-import Shape5 from './../assets/images/home-banner/google-pay.png';
+import Shape5 from './../assets/images/home-banner/google-pay2.png';
+import Shape6 from './../assets/images/home-banner/apple9.png';
 import Shape1 from './../assets/images/home-banner/shape2.png';
 import Shape3 from './../assets/images/home-banner/shape4.png';
 import wallet from './../assets/images/icons/friendz.jpg';
@@ -20,6 +21,9 @@ import friend from './../assets/images/icons/friend.png';
 import coin1 from './../assets/images/coins/coin1.png';
 import coin3 from './../assets/images/coins/coin3.png';
 import coin4 from './../assets/images/coins/coin4.png';
+import coin8 from './../assets/images/coins/coin8.jpeg';
+import coin9 from './../assets/images/coins/coin9.jpeg';
+import coin10 from './../assets/images/coins/coin10.jpeg';
 // import google from './../assets/images/coins/google2.png';
 import pic2 from './../assets/images/coins/pic2.jpg';
 import pic3 from './../assets/images/coins/pic3.jpg';
@@ -149,23 +153,6 @@ function Home(){
 					</div>
 					<img className="bg-shape1" src={Shape1} alt="" />
 					</section>
-					<div className="container">
-						<div className="form-wrapper-box style-1 text-center">
-							<div className="section-head " >
-								<h4 className="title m-t0">Our Sponsors</h4>
-								{/* Add any additional content here */}
-							</div>
-							<div className="sponsor-icons">
-								{/* Add your sponsor icons here */}
-								<img src={coin1} alt="Sponsor 1" />
-								<img src={coin4} alt="Sponsor 2" />
-								<img src={coin3} alt="Sponsor 3" />
-								{/* <img src={google} alt="Sponsor 4" /> */}
-								{/* Add as many sponsor icons as needed */}
-							</div>
-						</div>
-					</div>
-					<br></br>
 					<section className="content-inner bg-light icon-section section-wrapper2">
 					<div className="container">
 						<div className="section-head text-center">
@@ -176,24 +163,84 @@ function Home(){
 						</div>
 					</div>
 					<img className="bg-shape1" src={Shape1} alt="" />
-				</section>
-				<div className="container">
-					<div className="text-center">
-						<div className="section-head text-center " >
-						    <p>Get the Muda mobile app</p>
-							<h4 className="title m-t0">We’ve created the mobile app you need for trading Crypto on the go.</h4>
-						</div>
-						<div className="sponsor-icons">
-						   <a href="https://play.google.com/store/apps/details?id=com.muda.exchange&hl=en_US&gl=US&pli=1">
-							<img src={Shape5} alt="click me to download our app" />
-						   </a>
-						</div>
-						<br></br>
-						<div className="section-head text-center " >
-							<p>Buy, Sell, Send, Receive and Manage your crypto securely on your mobile devices – No stress, No hustle.</p>
+					<div className="container">
+						<div className="form-wrapper-box text-center">
+							<div className="section-head">
+							<h4 className="title m-t0">Our Sponsors</h4>
+							</div>
+							<div
+							className="sponsor-iconz"
+							style={{
+								display: "flex",
+								justifyContent: "center",
+								alignItems: "center",
+							}}
+							>
+							<img
+								src={coin8}
+								alt="Peagusus"
+								style={{
+								width: "200px",
+								height: "100px",
+								objectFit: "contain",
+								margin: "10px",
+								}}
+							/>
+							<img
+								src={coin9}
+								alt="Fire blocks"
+								style={{
+								width: "200px",
+								height: "100px",
+								objectFit: "contain",
+								margin: "10px",
+								}}
+							/>
+							<img
+								src={coin10}
+								alt="Celo"
+								style={{
+								width: "200px",
+								height: "100px",
+								objectFit: "contain",
+								margin: "10px",
+								}}
+							/>
+							</div>
 						</div>
 					</div>
+					<br></br>
+				</section>
+				<div className="container">
+				<div className="text-center">
+					<div className="section-head text-center">
+					<p>Get the Muda mobile app</p>
+					<h4 className="title m-t0">We’ve created the mobile app you need for trading Crypto on the go.</h4>
+					</div>
+					<style>
+					{`
+						.sponsor-icons {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						}
+					`}
+					</style>
+					<div className="sponsor-icons">
+					<a href="https://play.google.com/store/apps/details?id=com.muda.exchange&hl=en_US&gl=US&pli=1">
+						<img src={Shape5} alt="click me to download our app" />
+					</a>
+					<a href="#">
+						<img src={Shape6} alt="click me to download our app" />
+					</a>
+					</div>
+					<br></br>
+					<div className="section-head text-center">
+					<p>Buy, Sell, Send, Receive and Manage your crypto securely on your mobile devices – No stress, No hustle.</p>
+					</div>
 				</div>
+				</div>
+
 				<br></br>
 				{/* <section className="content-inner bg-white blog-wrapper">
 					<img className="bg-shape1" src={Shape1} alt="" />
