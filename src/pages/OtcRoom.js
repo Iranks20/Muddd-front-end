@@ -22,9 +22,15 @@ function BlogDetails(){
                 <section className="bg-light content-inner" style={{background: "white"}}>
                     <section className="clearfix section-wrapper1 bg-primary-light">
                         <div className="container">
+                        <div className="section-head " >
+                            <p>OTC trading involves direct buying and selling of financial assets between parties, bypassing centralized exchanges. Our OTC trading platform provides flexible trade sizes, pricing, and settlement options. Merchants undergo KYC verification to ensure legitimate trading for clients.</p>
+                            <p>Businesses use our OTC to access deep liquidity and make payments across several currencies using our trusted OTC service. <a href="https://www.muda.exchange/">Sign up</a> and start trading today! Reach us on <a href="https://wa.me/25677129654">WhatsApp here</a>.</p>
+                                {/* <h4 className="title m-t0">Rates</h4> */}
+                            </div>
                             <div className="form-wrapper-box style-1 text-center">
                                 <div className="section-head " >
-                                <p>Businesses use our otc to access deep liquidity and make payments accross several currencies using our trusted OTC service <a href="https://www.muda.exchange/">sign up</a> and start trading today! Reach Us on <a href="https://wa.me/25677129654">Whatsapp here</a></p>
+                                {/* <p>OTC trading involves direct buying and selling of financial assets between parties, bypassing centralized exchanges. Our OTC trading platform provides flexible trade sizes, pricing, and settlement options. Merchants undergo KYC verification to ensure legitimate trading for clients.</p> */}
+                                {/* <p>Businesses use our OTC to access deep liquidity and make payments across several currencies using our trusted OTC service. <a href="https://www.muda.exchange/">Sign up</a> and start trading today! Reach us on <a href="https://wa.me/25677129654">WhatsApp here</a>.</p> */}
                                     <h4 className="title m-t0">Rates</h4>
                                 </div>
                                 <table className="table dz-table">

@@ -54,7 +54,7 @@ function Home(){
 						<div className="row align-items-center">
 							<div className="col-12 text-center">
 								<h1 className="" >Move Money To All Corners <br />Of The World!​</h1>
-								<p className="text text-primary " >Buy, Sell, trade and send different currencies with us today access the deepest liquidity on the continent today</p>
+								<p className="text text-primary " >Buy, sell, trade, and send different currencies with us today. Access the deepest liquidity on the continent today!</p>
 								<a href="https://www.muda.exchange" className="btn space-lg btn-gradient btn-shadow btn-primary " >Get Started</a>
 								<ul className="image-before">
 									<li className="left-img"><img src={baner1} alt="" /></li>
@@ -254,7 +254,7 @@ function Home(){
 					</div>
 					<br></br>
 					<div className="section-head text-center">
-					<p>Buy, Sell, Send, Receive and Manage your crypto securely on your mobile devices – No stress, No hustle.</p>
+					<p>Buy, sell, send, receive, and manage your currency securely on your mobile devices- No stress, no hustle.</p>
 					</div>
 				</div>
 				</div>
