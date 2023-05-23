@@ -17,7 +17,8 @@ import BlogLaunch from './BlogLaunch';
 import BlogOtc from './BlogOtc';
 import BlogProducts from './BlogProducts';
 // import BlogList from './BlogList';
-import Products from './products';
+import Products from './ProductList';
+// import Products from './products';
 
 function Index(){
 	return(
@@ -38,6 +39,7 @@ function Index(){
 						<Route path='/blog-otc' exact element={<BlogOtc />} />
 						<Route path='/products' exact element={<Products />} />
 						<Route path='/product-details' exact element={<BlogProducts />} />
+						{/* <Route path='/product' exact element={<ProductList />} /> */}
 						{/* <Route path='/blog-list' exact element={<BlogList />} /> */}
 					</Routes>
 					<Footer />

@@ -18,7 +18,7 @@ function BlogDetails(){
     return(
         <>
             <div className="page-content">
-                <PageLayout desc={false} pageTitle="OTC Deal Room" />
+                <PageLayout desc={false} pageTitle="OTC Deal Room" height='70px' />
                 <section className="bg-light content-inner" style={{background: "white"}}>
                     <section className="clearfix section-wrapper1 bg-primary-light">
                         <div className="container">
@@ -67,7 +67,7 @@ function BlogDetails(){
                         </div>
                     </section>
                     <br></br>
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="widget-title">
                             <h4 className="title">Testimonials</h4>
                         </div>
@@ -95,7 +95,7 @@ function BlogDetails(){
                             ))}
                         
                         </div>
-                    </div>
+                    </div> */}
                 </section>
             </div>
         </>

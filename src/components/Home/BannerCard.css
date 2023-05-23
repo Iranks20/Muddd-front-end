@@ -1,0 +1,25 @@
+.banner-card-row {
+    display: flex;
+    animation-name: move-left;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    width: max-content;
+  }
+  
+  .banner-card-item {
+    flex-shrink: 0;
+    width: 350px; /* Set the desired width for each card */
+    margin-right: 10px;
+  }
+  
+  @keyframes move-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(calc(-100% - 10px));
+    }
+  }
+  

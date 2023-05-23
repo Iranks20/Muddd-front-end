@@ -27,17 +27,17 @@ function ContactUs(){
                                         <div className="widget widget_getintuch">
                                             <ul>
                                                 <li>
-                                                    <i className="fa fa-phone"></i>
-                                                    <span>+256726018443</span> 
+                                                    <i className="fab fa-whatsapp"></i>
+                                                    <span><a href="https://wa.me/256709013034">+256709013034</a></span> 
                                                 </li>
-                                                <li>
+                                                {/* <li>
                                                     <i className="fa fa-envelope"></i> 
                                                     <span>info@muda.tech</span>
                                                 </li>
                                                 <li>
                                                     <i className="fas fa-map-marker-alt"></i>
                                                     <span>Top House, Plot 65, <br/>Kampala Road, Uganda</span>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>

@@ -40,7 +40,7 @@ function Footer(){
                                         {/* <li><Link to={"/cash-link"}>CashLink</Link></li> */}
                                         {/* <li><Link to={"/blog"}>blog</Link></li> */}
                                         <li><Link to={"/blog"}>Our Blogs</Link></li>
-                                        <li><Link to={"/blog"}>Products</Link></li>
+                                        <li><Link to={"/products"}>Products</Link></li>
                                         {/* <li><Link to={"/contact-us"}>Contact Us</Link></li> */}
                                     </ul>
                                 </div>
@@ -67,11 +67,28 @@ function Footer(){
                             </div>
                             <div className="col-xl-3 col-lg-4 col-sm-12" >
                                 <div className="widget widget_locations">
-                                    <h4 className="widget-title">Locations</h4>
+                                    <h4 className="widget-title">Contact us</h4>
                                     <div className="clearfix">
-                                        <h6 className="title">UGANDA</h6>
-                                        <p>Top House, Plot 65, Kampala Road, Uganda</p>
-                                        {/* <img src={flags} alt="" /> */}
+                                        <div className="widget widget_about">
+                                            <div className="widget widget_getintuch">
+                                                <ul>
+                                                    <li>
+                                                        <i className="fab fa-whatsapp"></i>
+                                                        <p><a href="https://wa.me/256709013034">+256709013034</a></p> 
+                                                    </li>
+                                                    {/* <li>
+                                                        <i className="fa fa-envelope"></i> 
+                                                        <span>info@muda.tech</span>
+                                                    </li>
+                                                    <li>
+                                                        <i className="fas fa-map-marker-alt"></i>
+                                                        <span>Top House, Plot 65, <br/>Kampala Road, Uganda</span>
+                                                    </li> */}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        {/* <h6 className="title">UGANDA</h6>
+                                        <p>Top House, Plot 65, Kampala Road, Uganda</p> */}
                                     </div>
                                 </div>
                             </div>

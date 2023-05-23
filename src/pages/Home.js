@@ -10,7 +10,7 @@ import RecentNews from './../components/Home/RecentNews';
 
 //images
 import baner1 from './../assets/images/home-banner/img1.png';
-import baner2 from './../assets/images/home-banner/blog-9.png';
+import baner2 from './../assets/images/home-banner/img1.png';
 import Shape5 from './../assets/images/home-banner/google-pay2.png';
 import Shape6 from './../assets/images/home-banner/apple9.png';
 import Shape1 from './../assets/images/home-banner/shape2.png';
@@ -18,9 +18,9 @@ import Shape3 from './../assets/images/home-banner/shape4.png';
 import wallet from './../assets/images/icons/friendz.jpg';
 import friend from './../assets/images/icons/friend.png';
 
-import coin1 from './../assets/images/coins/coin1.png';
-import coin3 from './../assets/images/coins/coin3.png';
-import coin4 from './../assets/images/coins/coin4.png';
+import coin1 from './../assets/images/coins/coin5.png';
+import coin3 from './../assets/images/coins/coin11.png';
+import coin4 from './../assets/images/coins/coin2.png';
 import coin8 from './../assets/images/coins/coin8.jpeg';
 import coin9 from './../assets/images/coins/coin9.jpeg';
 import coin10 from './../assets/images/coins/coin10.jpeg';
@@ -43,8 +43,9 @@ function Home(){
         e.preventDefault();
         nav("/contact-us");
     };
-	const [selecttext, setSelectText] = useState([coin4, 'Bitcoin']);
+	const [selecttext, setSelectText] = useState([coin1, 'EURO']);
 	const [selectedtext, setSelectedText] = useState('Sell');
+	// const [selectingtext, setSelectingText] = useState([coin1,'EURO']);
 	return(
 		<>
 			<div className="page-content">				
@@ -53,7 +54,7 @@ function Home(){
 						<div className="row align-items-center">
 							<div className="col-12 text-center">
 								<h1 className="" >Move Money To All Corners <br />Of The World!​</h1>
-								<p className="text text-primary " >Buy, Sell, trade and send different currencies with us today access the deposit liquidity on the continent today</p>
+								<p className="text text-primary " >Buy, Sell, trade and send different currencies with us today access the deepest liquidity on the continent today</p>
 								<a href="https://www.muda.exchange" className="btn space-lg btn-gradient btn-shadow btn-primary " >Get Started</a>
 								<ul className="image-before">
 									<li className="left-img"><img src={baner1} alt="" /></li>
@@ -76,6 +77,7 @@ function Home(){
 						</div>
 					</div>
 				</div>
+				<br></br>
 				<section className="clearfix section-wrapper1 bg-primary-light">
 				    <div className="container">
 						<div className="form-wrapper-box style-1 text-center">
@@ -86,39 +88,55 @@ function Home(){
 								<div className="form-wrapper">
 									<div className="flex-1">
 										<div className="row g-3">
-											<div className="col-xl-3 col-md-6 " >
-												<Dropdown className="select-drop">
-													<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
-														<img src={selecttext[0]} alt=""/> {selecttext[1]} <i className="fa-sharp fa-solid fa-angle-down" />
-													</Dropdown.Toggle>
-													<Dropdown.Menu>
-														<Dropdown.Item onClick={()=>setSelectText([coin4,"Bitcoin"])}><img src={coin4} alt=""/> Bitcoin</Dropdown.Item>
-														<Dropdown.Item onClick={()=>setSelectText([coin3, "Ethereum"])}><img src={coin3} alt=""/> Ethereum</Dropdown.Item>
-														<Dropdown.Item onClick={()=>setSelectText([coin1, "Tether"])}><img src={coin1} alt=""/> Tether</Dropdown.Item>
-													</Dropdown.Menu>
-
-												</Dropdown>
-											</div>
-											<div className="col-xl-3 col-md-6 " >
-												<input name="dzName" type="text" required="" placeholder="How much worth in $?" className="form-control" />
-											</div>
-											<div className="col-xl-3 col-md-6 ">
-												<input name="dzName" type="text" required="" placeholder="Email Address" className="form-control" />
-											</div>
-											<div className="col-xl-3 col-md-6 " >
-											<Dropdown className="select-drop">
+										<div className="col-xl-3 col-md-6 " >
+										<Dropdown className="select-drop">
+										<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
+											{selectedtext === 'Sell' ? 'Sell' : 'Buy'} <i className="fa-sharp fa-solid fa-angle-down" />
+										</Dropdown.Toggle>
+										<Dropdown.Menu>
+											<Dropdown.Item onClick={() => setSelectedText('Sell')}>Sell</Dropdown.Item>
+											<Dropdown.Item onClick={() => setSelectedText('Buy')}>Buy</Dropdown.Item>
+										</Dropdown.Menu>
+										</Dropdown>
+									</div>
+									<div className="col-xl-3 col-md-6 " >
+										<Dropdown className="select-drop">
 											<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
-												{selectedtext === 'Sell' ? 'Sell' : 'Buy'} <i className="fa-sharp fa-solid fa-angle-down" />
+												<img src={selecttext[0]} alt=""/> {selecttext[1]} <i className="fa-sharp fa-solid fa-angle-down" />
 											</Dropdown.Toggle>
 											<Dropdown.Menu>
-												<Dropdown.Item onClick={() => setSelectedText('Sell')}>Sell</Dropdown.Item>
-												<Dropdown.Item onClick={() => setSelectedText('Buy')}>Buy</Dropdown.Item>
+												<Dropdown.Item onClick={()=>setSelectText([coin4,"USD"])}><img src={coin4} alt=""/> USD</Dropdown.Item>
+												<Dropdown.Item onClick={()=>setSelectText([coin3, "KSHS"])}><img src={coin3} alt=""/> KSHS</Dropdown.Item>
+												<Dropdown.Item onClick={()=>setSelectText([coin1, "EURO"])}><img src={coin1} alt=""/> EURO</Dropdown.Item>
 											</Dropdown.Menu>
-											</Dropdown>
-											</div>
+
+										</Dropdown>
+									</div>
+												{/* <div className="col-xl-3 col-md-6 " >
+													<Dropdown className="select-drop">
+														<Dropdown.Toggle as="div" className="i-false select-drop-toggle">
+															<img src={selectingtext[0]} alt=""/> {selectingtext[1]} <i className="fa-sharp fa-solid fa-angle-down" />
+														</Dropdown.Toggle>
+														<Dropdown.Menu>
+															<Dropdown.Item onClick={()=>setSelectingText([coin4,"USD"])}><img src={coin4} alt=""/> Bitcoin</Dropdown.Item>
+															<Dropdown.Item onClick={()=>setSelectingText([coin3, "KSHS"])}><img src={coin3} alt=""/> Ethereum</Dropdown.Item>
+															<Dropdown.Item onClick={()=>setSelectingText([coin1, "EURO"])}><img src={coin1} alt=""/> Tether</Dropdown.Item>
+														</Dropdown.Menu>
+
+													</Dropdown>
+												</div> */}
+												<div className="col-xl-3 col-md-6 " >
+													<input name="dzName" type="text" required="" placeholder="How much worth in $?" className="form-control" />
+												</div>
+												{/* <div className="col-xl-3 col-md-6 ">
+													<input name="dzName" type="text" required="" placeholder="Email Address" className="form-control" />
+												</div> */}
+												<div className="col-xl-3 col-md-6 " >
+												<a href="https://otc.muda.exchange" className="btn btn-lg btn-gradient btn-primary btn-shadow">Get Price</a>
+												</div>
 										</div>
 									</div>
-									<a href="https://otc.muda.exchange" className="btn btn-lg btn-gradient btn-primary btn-shadow">Get Price</a>
+									
 								</div>
 							</form>
 						</div>
@@ -151,18 +169,6 @@ function Home(){
 							</div>
 						</div>
 					</div>
-					<img className="bg-shape1" src={Shape1} alt="" />
-					</section>
-					<section className="content-inner bg-light icon-section section-wrapper2">
-					<div className="container">
-						<div className="section-head text-center">
-							<h2 className="title">One stop liquidity solution for currency trading in Africa</h2>
-						</div>
-						<div className="row sp60">
-							<OneStop />
-						</div>
-					</div>
-					<img className="bg-shape1" src={Shape1} alt="" />
 					<div className="container">
 						<div className="form-wrapper-box text-center">
 							<div className="section-head">
@@ -210,12 +216,24 @@ function Home(){
 						</div>
 					</div>
 					<br></br>
+					<img className="bg-shape1" src={Shape1} alt="" />
+					</section>
+					<section className="content-inner bg-light icon-section section-wrapper2">
+					<div className="container">
+						<div className="section-head text-center">
+							<h2 className="title">One stop liquidity solution for currency trading in Africa</h2>
+						</div>
+						<div className="row sp60">
+							<OneStop />
+						</div>
+					</div>
+					<img className="bg-shape1" src={Shape1} alt="" />
 				</section>
 				<div className="container">
 				<div className="text-center">
 					<div className="section-head text-center">
 					<p>Get the Muda mobile app</p>
-					<h4 className="title m-t0">We’ve created the mobile app you need for trading Crypto on the go.</h4>
+					<h4 className="title m-t0">We’ve created the mobile app you need for trading Currencies on the go.</h4>
 					</div>
 					<style>
 					{`

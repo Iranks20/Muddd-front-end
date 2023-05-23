@@ -13,7 +13,7 @@ function BlogProducts(){
     const { state } = location;
     // Access the title and description from the previous page
     const { title, description, image } = state;
-    console.log(image)
+    console.log(title)
     // console.log(image1)
     return(
         <>
