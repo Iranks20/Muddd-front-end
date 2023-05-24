@@ -71,7 +71,7 @@ function Header(){
                             </button>                            
                             <div className="extra-nav">
                                 <div className="extra-cell">
-                                    <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://www.muda.exchange/">Exchange</a>
+                                    <a className="btn btn-outline-primary text-white" target="_blank" rel="noreferrer" href="https://web.muda.exchange/">Exchange</a>
                                     <a className="btn btn-primary btn-gradient btn-shadow" target="_blank" rel="noreferrer" href="https://otc.muda.exchange/">Trading Desk</a>
                                 </div>
                             </div>                           
